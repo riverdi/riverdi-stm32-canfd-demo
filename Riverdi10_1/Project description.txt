@@ -7,5 +7,5 @@ Once USR BTN 1 is pressed, the charging indicator shall start to indicate the ch
 TO DO:
 1. CANFD Driver.
 2. CANFD Status indicator.
-3. Getting the data from either 7.0"/5.0" display.
+3. Getting the data from either 7.0" or 5.0" display.
 
