@@ -1,0 +1,11 @@
+Phase 1: Simulated input signal.
+The project  currently is simulated on software level.
+Once the project has been opened using TouchGFX, you can run the project on the 10.1" display.
+Once the flash completed, the progress bar which indicates the charge level will go to 100 and back to zero as state of charge.
+Once USR BTN 1 is pressed, the charging indicator shall start to indicate the charging is in progress.
+
+TO DO:
+1. CANFD Driver.
+2. CANFD Status indicator.
+3. Getting the data from either 7.0"/5.0" display.
+

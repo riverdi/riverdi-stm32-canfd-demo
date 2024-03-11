@@ -1,0 +1,6 @@
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:215:6:StartDefaultTask	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:235:6:StartChargerLevelTask	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:291:6:StartChargeStatuseTask	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:126:6:vApplicationIdleHook	0	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:141:6:vApplicationStackOverflowHook	0	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/freertos.c:154:6:MX_FREERTOS_Init	8	static

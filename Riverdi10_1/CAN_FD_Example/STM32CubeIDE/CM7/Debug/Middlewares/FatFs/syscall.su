@@ -1,0 +1,4 @@
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c:36:5:ff_cre_syncobj	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c:77:5:ff_del_syncobj	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c:98:5:ff_req_grant	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c:135:6:ff_rel_grant	0	static
