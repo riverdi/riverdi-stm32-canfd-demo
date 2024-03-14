@@ -1,5 +1,8 @@
 #include <gui/screen1_screen/Screen1View.hpp>
 
+
+
+
 Screen1View::Screen1View()
 {
 
@@ -40,7 +43,7 @@ void Screen1View::setChargeState(bool state)
 		if(state==false)
 		{
 			animatedImage1.setAlpha(0);
-			animatedImage1.pauseAnimation();
+			animatedImage1.stopAnimation();
 			animatedImage1.invalidate();
 		}
 	}

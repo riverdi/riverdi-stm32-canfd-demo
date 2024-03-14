@@ -56,3 +56,37 @@ C Model Exception: C Model Status [Element file:/C:/Users/hussamaldean/STM32Cube
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2024-03-05 07:36:37.032
 !MESSAGE Element file:/C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/TouchGFX_Example/CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp does not exist.
+!SESSION 2024-03-14 07:54:01.156 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\hussamaldean\STM32CubeIDE\Riverdi\Riverdi_Displays\Riverdi7\BatterySimulator\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\hussamaldean\STM32CubeIDE\Riverdi\Riverdi_Displays\Riverdi7\BatterySimulator\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-14 07:54:32.451
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-14 07:54:32.464
+!MESSAGE Log4j2 initialized with config file C:\Users\hussamaldean\STM32CubeIDE\Riverdi\Riverdi_Displays\Riverdi7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-14 07:54:44.679
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-14 07:55:35.609
+!MESSAGE Indexed 'Riverdi_70STM32H7_CM4' (25 sources, 84 headers) in 6.2 sec: 7,558 declarations; 52,891 references; 5 unresolved inclusions; 70 syntax errors; 2,366 unresolved names (3.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-14 07:56:00.973
+!MESSAGE Indexed 'Riverdi_70STM32H7_CM7' (154 sources, 445 headers) in 22.6 sec: 45,467 declarations; 233,984 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00072%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-14 08:00:17.299
+!MESSAGE Indexed 'Riverdi_70STM32H7_CM7' (154 sources, 445 headers) in 15.9 sec: 45,482 declarations; 234,006 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00072%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-14 08:36:24.147
+!MESSAGE Indexed 'Riverdi_70STM32H7_CM7' (154 sources, 445 headers) in 14.6 sec: 45,509 declarations; 234,078 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00072%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 08:38:18.771
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 1 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 08:38:18.772
+!MESSAGE Existing sessions are:

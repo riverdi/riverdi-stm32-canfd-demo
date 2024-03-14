@@ -2,6 +2,5 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:38:10:uint16_t TypedTextDatabase::getInstanceSize()	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:43:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:48:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:55:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	5
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:70:1:void __static_initialization_and_destruction_0(int, int)	3
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:55:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	4
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:70:1:cpp)	1
