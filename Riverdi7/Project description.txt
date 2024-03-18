@@ -1,0 +1,14 @@
+Phase 1: Battery Simulator:
+At this phase, the 7inch shall act as BMS of the battery and start charging/discharging the battery and display the charging process.
+Also, during the charging, the user LED shall blink each 200ms to indicate as charging process near the charging socket of the EV.
+--------------------------Done----------------------------------
+
+Phase 2: Battery Level and Status Transmission over CAN-FD Bus.
+The CAN-FD Driver has been developed and able to send the battery status and level to Riverdi 10.1" over the CAN-FD Bus.
+Also, the LED will blink when the simulation is charging the battery.
+
+Connection:
+Please connect CAN1 of Riverdi 7.0" to CAN1 of Riverdi 10.1". 
+
+
+
