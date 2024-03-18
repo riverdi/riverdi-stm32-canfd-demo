@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "fdcan.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,6 +49,16 @@
 uint8_t dir=0; /*Direction for either charging or discharging*/
 uint8_t state=0; /*State of the battery i.e. Charging or discharging*/
 uint8_t level=0; /*Level of the battery (0-100%)*/
+
+
+extern FDCAN_HandleTypeDef hfdcan1;
+
+FDCAN_TxHeaderTypeDef   TxHeader;
+FDCAN_RxHeaderTypeDef   RxHeader;
+uint8_t               TxData[2];
+uint8_t               RxData[2];
+int indx = 0;
+
 
 
 /* USER CODE END Variables */
@@ -80,6 +90,13 @@ const osThreadAttr_t BatteryControl_attributes = {
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
+/* Definitions for CANFD_Task */
+osThreadId_t CANFD_TaskHandle;
+const osThreadAttr_t CANFD_Task_attributes = {
+  .name = "CANFD_Task",
+  .stack_size = 512 * 4,
+  .priority = (osPriority_t) osPriorityLow,
+};
 /* Definitions for BatteryStateQueue */
 osMessageQueueId_t BatteryStateQueueHandle;
 const osMessageQueueAttr_t BatteryStateQueue_attributes = {
@@ -89,6 +106,16 @@ const osMessageQueueAttr_t BatteryStateQueue_attributes = {
 osMessageQueueId_t BatteryLevelQueueHandle;
 const osMessageQueueAttr_t BatteryLevelQueue_attributes = {
   .name = "BatteryLevelQueue"
+};
+/* Definitions for CANFD_BatteryState_Queue */
+osMessageQueueId_t CANFD_BatteryState_QueueHandle;
+const osMessageQueueAttr_t CANFD_BatteryState_Queue_attributes = {
+  .name = "CANFD_BatteryState_Queue"
+};
+/* Definitions for CANFD_BatteryLevelQueue */
+osMessageQueueId_t CANFD_BatteryLevelQueueHandle;
+const osMessageQueueAttr_t CANFD_BatteryLevelQueue_attributes = {
+  .name = "CANFD_BatteryLevelQueue"
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -100,6 +127,7 @@ void StartDefaultTask(void *argument);
 extern void videoTaskFunc(void *argument);
 extern void TouchGFX_Task(void *argument);
 void StartBatteryControl(void *argument);
+void StartCANFD_Task(void *argument);
 
 extern void MX_USB_HOST_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
@@ -161,6 +189,12 @@ void MX_FREERTOS_Init(void) {
   /* creation of BatteryLevelQueue */
   BatteryLevelQueueHandle = osMessageQueueNew (1, sizeof(uint8_t), &BatteryLevelQueue_attributes);
 
+  /* creation of CANFD_BatteryState_Queue */
+  CANFD_BatteryState_QueueHandle = osMessageQueueNew (1, sizeof(uint8_t), &CANFD_BatteryState_Queue_attributes);
+
+  /* creation of CANFD_BatteryLevelQueue */
+  CANFD_BatteryLevelQueueHandle = osMessageQueueNew (2, sizeof(uint8_t), &CANFD_BatteryLevelQueue_attributes);
+
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
@@ -177,6 +211,9 @@ void MX_FREERTOS_Init(void) {
 
   /* creation of BatteryControl */
   BatteryControlHandle = osThreadNew(StartBatteryControl, NULL, &BatteryControl_attributes);
+
+  /* creation of CANFD_Task */
+  CANFD_TaskHandle = osThreadNew(StartCANFD_Task, NULL, &CANFD_Task_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -254,8 +291,14 @@ void StartBatteryControl(void *argument)
 	  /*Send the battery state */
 	  osMessageQueuePut(BatteryStateQueueHandle, &state, 0, 0);
 
+	  osMessageQueuePut(CANFD_BatteryState_QueueHandle, &state, 0, 0);
+
 	  /*Send the battery level state*/
 	  osMessageQueuePut(BatteryLevelQueueHandle,&level,0,0);
+
+	  osMessageQueuePut(CANFD_BatteryLevelQueueHandle, &level, 0, 0);
+
+
 
 
 	  /*Repeat this every 200ms*/
@@ -264,8 +307,62 @@ void StartBatteryControl(void *argument)
   /* USER CODE END StartBatteryControl */
 }
 
+/* USER CODE BEGIN Header_StartCANFD_Task */
+/**
+* @brief Function implementing the CANFD_Task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartCANFD_Task */
+void StartCANFD_Task(void *argument)
+{
+  /* USER CODE BEGIN StartCANFD_Task */
+  /* Infinite loop */
+  for(;;)
+  {
+	  if(osMessageQueueGetCount(CANFD_BatteryState_QueueHandle)>0)
+	  {
+		  if(osMessageQueueGet(CANFD_BatteryState_QueueHandle,&TxData[0], 0, 0)==osOK)
+		  {
+
+		  }
+	  }
+
+	  if(osMessageQueueGetCount(CANFD_BatteryLevelQueueHandle)>0)
+	  {
+		  if(osMessageQueueGet(CANFD_BatteryLevelQueueHandle,&TxData[1], 0, 0)==osOK)
+		  {
+
+		  }
+	  }
+
+	  if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &TxHeader, TxData)!= HAL_OK)
+	  {
+	   Error_Handler();
+	  }
+    osDelay(10);
+  }
+  /* USER CODE END StartCANFD_Task */
+}
+
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
-
+void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+{
+  if((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != RESET)
+  {
+    /* Retreive Rx messages from RX FIFO0 */
+    if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK)
+    {
+    /* Reception Error */
+    Error_Handler();
+    }
+    if (HAL_FDCAN_ActivateNotification(hfdcan, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
+    {
+      /* Notification Error */
+      Error_Handler();
+    }
+  }
+}
 /* USER CODE END Application */
 

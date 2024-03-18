@@ -7,4 +7,4 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:6:1:Screen1View::Screen1View()	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:11:6:virtual void Screen1View::setupScreen()	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:21:6:virtual void Screen1View::setChargeLevel(int)	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:30:6:virtual void Screen1View::setChargeState(bool)	4
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:29:6:virtual void Screen1View::setChargeState(bool)	4

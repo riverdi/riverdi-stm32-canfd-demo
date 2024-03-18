@@ -46,14 +46,21 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 
-uint8_t ChargeState=0;
-uint8_t ChargeLevel=0;
+//uint8_t ChargeState=0;
+//uint8_t ChargeLevel=0;
+//
+///*For the simulation, a dir variable is used
+// * to simulate charging and discharging
+// * */
+//
+//uint8_t dir=0;
 
-/*For the simulation, a dir variable is used
- * to simulate charging and discharging
- * */
+extern FDCAN_HandleTypeDef hfdcan1;
 
-uint8_t dir=0;
+FDCAN_TxHeaderTypeDef   TxHeader;
+FDCAN_RxHeaderTypeDef   RxHeader;
+uint8_t               TxData[2];
+uint8_t               RxData[2];
 
 
 
@@ -239,34 +246,10 @@ void StartChargerLevelTask(void *argument)
 	for(;;)
 	{
 
-		/*Check the direction variable
-		 * 0-> meaning increase the battery level
-		 * 1-> meaning decrease the battery level
-		 * */
-		if(dir ==0)
-		{
-			ChargeLevel++;
-		}
-		else
-		{
-			ChargeLevel--;
-		}
-
-		/*Change the direction when charge level hits either
-		 * 0 or 1.
-		 * */
-		if(ChargeLevel==100)
-		{
-			dir=1;
-		}
-		if (ChargeLevel==0)
-		{
-			dir=0;
-		}
 
 		/*Put the Charge level into the queue*/
 
-		osMessageQueuePut(ChargeLevelQueueHandle, &ChargeLevel, 0, 0);
+		osMessageQueuePut(ChargeLevelQueueHandle, &RxData[1], 0, 0);
 
 		/*This task shall be called each 100 milliseconds
 		 * Don't use HAL_Delay since it is blocking delay
@@ -276,7 +259,7 @@ void StartChargerLevelTask(void *argument)
 		 * into blocked status until the delay period has elapsed
 		 * (won't be executed unlike HAL_Delay).
 		 * */
-		osDelay(100);
+		osDelay(1);
 	}
   /* USER CODE END StartChargerLevelTask */
 }
@@ -295,19 +278,35 @@ void StartChargeStatuseTask(void *argument)
 	for(;;)
 	{
 		/*Store Current push button (USR BTN 1) state*/
-		ChargeState=HAL_GPIO_ReadPin(USR_BTN_1_GPIO_Port, USR_BTN_1_Pin);
+
 
 		/*Push the current push button status to the queue*/
-		osMessageQueuePut(ChargeStateQueueHandle, &ChargeState, 0, 0);
+		osMessageQueuePut(ChargeStateQueueHandle, &RxData[0], 0, 0);
 
 		/*Call this task each 50ms*/
-		osDelay(50);
+		osDelay(1);
 	}
   /* USER CODE END StartChargeStatuseTask */
 }
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
-
+void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+{
+  if((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != RESET)
+  {
+    /* Retreive Rx messages from RX FIFO0 */
+    if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK)
+    {
+    /* Reception Error */
+    Error_Handler();
+    }
+    if (HAL_FDCAN_ActivateNotification(hfdcan, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
+    {
+      /* Notification Error */
+      Error_Handler();
+    }
+  }
+}
 /* USER CODE END Application */
 

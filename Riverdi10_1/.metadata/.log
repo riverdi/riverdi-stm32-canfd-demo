@@ -1387,3 +1387,24 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.intern
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-03-14 09:00:00.583
 !MESSAGE Indexed 'Riverdi_70STM32H7_CM4' (24 sources, 84 headers) in 4.25 sec: 7,553 declarations; 52,834 references; 5 unresolved inclusions; 70 syntax errors; 2,365 unresolved names (3.8%)
+!SESSION 2024-03-17 08:46:32.324 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-17 08:47:01.471
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-17 08:47:01.481
+!MESSAGE Log4j2 initialized with config file C:\Users\hussamaldean\STM32CubeIDE\Riverdi\Riverdi_Displays\Riverdi10_1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-17 08:47:19.220
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-17 10:22:13.060
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 4 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-17 10:22:13.062
+!MESSAGE Existing sessions are:
