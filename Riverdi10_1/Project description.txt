@@ -5,7 +5,7 @@ Once the flash completed, the progress bar which indicates the charge level will
 Once USR BTN 1 is pressed, the charging indicator shall start to indicate the charging is in progress.
 --------------------------Done----------------------------------
 
-Phase 2:
+Phase 2: Battery Level and Status Reception over CAN-FD Bus
 The full CAN-FD driver has been developed and the 10.1 is able to receive the status and the level of the battery 
 from 7.0" display over CAN-FD bus.
 
