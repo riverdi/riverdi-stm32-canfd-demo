@@ -3,9 +3,19 @@ The project  currently is simulated on software level.
 Once the project has been opened using TouchGFX, you can run the project on the 10.1" display.
 Once the flash completed, the progress bar which indicates the charge level will go to 100 and back to zero as state of charge.
 Once USR BTN 1 is pressed, the charging indicator shall start to indicate the charging is in progress.
+--------------------------Done----------------------------------
+
+Phase 2:
+The full CAN-FD driver has been developed and the 10.1 is able to receive the status and the level of the battery 
+from 7.0" display over CAN-FD bus.
+
+
+
+
+Connection:
+Please connect CAN1 of Riverdi 10.1' to CAN1 of Riverdi 7.0". 
+
 
 TO DO:
-1. CANFD Driver.
-2. CANFD Status indicator.
-3. Getting the data from either 7.0" or 5.0" display.
+1. CANFD Status indicator.
 
