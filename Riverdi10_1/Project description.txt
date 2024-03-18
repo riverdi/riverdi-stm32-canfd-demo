@@ -13,7 +13,7 @@ from 7.0" display over CAN-FD bus.
 
 
 Connection:
-Please connect CAN1 of Riverdi 10.1' to CAN1 of Riverdi 7.0". 
+Please connect CAN1 of Riverdi 10.1" to CAN1 of Riverdi 7.0". 
 
 
 TO DO:
