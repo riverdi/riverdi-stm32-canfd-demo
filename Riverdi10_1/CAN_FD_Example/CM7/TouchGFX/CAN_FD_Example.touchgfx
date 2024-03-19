@@ -45,6 +45,26 @@
             "Width": 400,
             "Height": 147,
             "RelativeFilename": "Logo-400px.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 814,
+            "Y": 736,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "Untitled.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "image4",
+            "X": 980,
+            "Y": 354,
+            "Width": 300,
+            "Height": 300,
+            "RelativeFilename": "CAN_FD.png",
+            "Alpha": 0
           }
         ],
         "Interactions": []

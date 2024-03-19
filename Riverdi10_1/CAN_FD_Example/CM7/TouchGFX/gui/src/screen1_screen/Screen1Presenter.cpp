@@ -27,3 +27,8 @@ void Screen1Presenter::setChargeState(bool state)
 {
 	view.setChargeState(state);
 }
+
+void Screen1Presenter:: SetFault (bool state)
+{
+	view.SetFault(state);
+}

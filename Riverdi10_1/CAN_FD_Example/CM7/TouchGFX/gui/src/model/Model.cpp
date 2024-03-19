@@ -12,6 +12,7 @@ extern "C"
 {
 	extern osMessageQueueId_t ChargeStateQueueHandle;
 	extern osMessageQueueId_t ChargeLevelQueueHandle;
+	extern osMessageQueueId_t FaultQueueHandle;
 }
 
 
@@ -57,4 +58,17 @@ void Model::tick()
 			modelListener->setChargeState(ChargeStatus);
 		}
 	}
+
+
+
+	/*Check if there is an fault in the queue*/
+	if(osMessageQueueGetCount(FaultQueueHandle)>0)
+	{
+		if(osMessageQueueGet(FaultQueueHandle, &FaultState, 0, 0)==osOK)
+		{
+			modelListener->SetFault(FaultState);
+		}
+	}
+
+
 }

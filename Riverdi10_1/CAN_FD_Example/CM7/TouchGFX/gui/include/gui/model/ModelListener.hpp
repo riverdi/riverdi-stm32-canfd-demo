@@ -19,6 +19,7 @@ public:
     /*Declare both functions*/
     virtual void setChargeLevel(int value);
     virtual void setChargeState(bool state);
+    virtual void SetFault (bool state);
 protected:
     Model* model;
 

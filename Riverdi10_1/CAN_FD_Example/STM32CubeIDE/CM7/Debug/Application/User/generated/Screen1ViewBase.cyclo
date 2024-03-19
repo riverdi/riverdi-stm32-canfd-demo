@@ -17,10 +17,10 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Screen1Presenter>::~View()	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:39:1:Screen1ViewBase::~Screen1ViewBase()	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:44:6:virtual void Screen1ViewBase::setupScreen()	1
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:49:1:Screen1ViewBase::~Screen1ViewBase()	1
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:54:6:virtual void Screen1ViewBase::setupScreen()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Screen1Presenter>::~View()	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:39:1:virtual Screen1ViewBase::~Screen1ViewBase()	1
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp:49:1:virtual Screen1ViewBase::~Screen1ViewBase()	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	1

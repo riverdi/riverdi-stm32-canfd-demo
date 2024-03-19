@@ -34,6 +34,16 @@ Screen1ViewBase::Screen1ViewBase()
     image2.setXY(0, 0);
     image2.setBitmap(touchgfx::Bitmap(BITMAP_LOGO_400PX_ID));
     add(image2);
+
+    image3.setXY(814, 736);
+    image3.setBitmap(touchgfx::Bitmap(BITMAP_UNTITLED_ID));
+    image3.setAlpha(0);
+    add(image3);
+
+    image4.setXY(980, 354);
+    image4.setBitmap(touchgfx::Bitmap(BITMAP_CAN_FD_ID));
+    image4.setAlpha(0);
+    add(image4);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

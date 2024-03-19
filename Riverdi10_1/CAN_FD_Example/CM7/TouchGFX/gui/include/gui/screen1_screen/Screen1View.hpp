@@ -13,6 +13,7 @@ public:
     virtual void tearDownScreen();
     virtual void setChargeLevel(int value);
     virtual void setChargeState(bool state);
+    virtual void SetFault (bool state);
 protected:
 };
 

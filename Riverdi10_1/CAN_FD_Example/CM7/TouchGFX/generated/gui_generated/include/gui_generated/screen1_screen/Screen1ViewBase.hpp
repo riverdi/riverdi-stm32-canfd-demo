@@ -32,6 +32,8 @@ protected:
     touchgfx::AnimatedImage animatedImage1;
     touchgfx::ImageProgress imageProgress1;
     touchgfx::Image image2;
+    touchgfx::Image image3;
+    touchgfx::Image image4;
 
 private:
 

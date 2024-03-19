@@ -20,6 +20,7 @@ protected:
     /*declare the variable*/
     int Charge_Level;
     bool ChargeStatus;
+    bool FaultState;
 };
 
 #endif // MODEL_HPP

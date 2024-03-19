@@ -1,6 +1,7 @@
 #include <gui/screen1_screen/Screen1View.hpp>
 
 
+uint8_t fault_state;
 
 
 Screen1View::Screen1View()
@@ -28,7 +29,7 @@ void Screen1View::setChargeLevel(int value)
 
 void Screen1View::setChargeState(bool state)
 {
-	if(!animatedImage1.isAnimatedImageRunning())
+	if(!animatedImage1.isAnimatedImageRunning() &&fault_state==false)
 	{
 		if(state==true)
 		{
@@ -49,4 +50,34 @@ void Screen1View::setChargeState(bool state)
 	}
 
 
+}
+
+void Screen1View::SetFault(bool state)
+{
+	if (state==true)
+	{
+		image3.setAlpha(255);
+		image4.setAlpha(255);
+
+		image3.invalidate();
+		image4.invalidate();
+
+		/*Stop showing the charging indicator*/
+		animatedImage1.setAlpha(0);
+		animatedImage1.stopAnimation();
+		animatedImage1.invalidate();
+
+		fault_state=true;
+
+	}
+
+	else
+	{
+		fault_state=false;
+		image3.setAlpha(0);
+		image4.setAlpha(0);
+
+		image3.invalidate();
+		image4.invalidate();
+	}
 }

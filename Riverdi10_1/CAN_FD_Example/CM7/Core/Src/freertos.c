@@ -46,23 +46,31 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 
-//uint8_t ChargeState=0;
-//uint8_t ChargeLevel=0;
-//
-///*For the simulation, a dir variable is used
-// * to simulate charging and discharging
-// * */
-//
-//uint8_t dir=0;
-
+/*Declare CAN-FD handletypedef as extern since it is
+ * in fdcan.c source file
+ *  */
 extern FDCAN_HandleTypeDef hfdcan1;
 
+/*Declare the RX and TX header for the CAN-FD */
 FDCAN_TxHeaderTypeDef   TxHeader;
 FDCAN_RxHeaderTypeDef   RxHeader;
+
+/*
+ * Array to store both Tx and Rx data of the CAN-FD data.
+ * */
 uint8_t               TxData[2];
 uint8_t               RxData[2];
 
-
+/*Timeout management
+ *
+ * Since the 10.1 is acting as dashboard of EV, an emulation
+ * of CAN-FD data is lost by using timeout.
+ * It is assume that the LCD received an error signal to display
+ * the fault.
+ * Volatile since they shall be modified within the interrupt handler.
+ * */
+volatile uint32_t timeout;
+volatile uint8_t fault=0;
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -109,6 +117,11 @@ const osMessageQueueAttr_t ChargeStateQueue_attributes = {
 osMessageQueueId_t ChargeLevelQueueHandle;
 const osMessageQueueAttr_t ChargeLevelQueue_attributes = {
   .name = "ChargeLevelQueue"
+};
+/* Definitions for FaultQueue */
+osMessageQueueId_t FaultQueueHandle;
+const osMessageQueueAttr_t FaultQueue_attributes = {
+  .name = "FaultQueue"
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -181,6 +194,9 @@ void MX_FREERTOS_Init(void) {
 
   /* creation of ChargeLevelQueue */
   ChargeLevelQueueHandle = osMessageQueueNew (2, sizeof(uint8_t), &ChargeLevelQueue_attributes);
+
+  /* creation of FaultQueue */
+  FaultQueueHandle = osMessageQueueNew (1, sizeof(uint8_t), &FaultQueue_attributes);
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
@@ -275,13 +291,19 @@ void StartChargeStatuseTask(void *argument)
 {
   /* USER CODE BEGIN StartChargeStatuseTask */
 	/* Infinite loop */
+
 	for(;;)
 	{
-		/*Store Current push button (USR BTN 1) state*/
-
-
+		/*Assume that there is fault in the HV system*/
+		if(HAL_GetTick()-timeout>3000)
+		{
+			fault=1;
+		}
 		/*Push the current push button status to the queue*/
 		osMessageQueuePut(ChargeStateQueueHandle, &RxData[0], 0, 0);
+
+		/*Push the error state to the queue*/
+		osMessageQueuePut(FaultQueueHandle,&fault,0,0);
 
 		/*Call this task each 50ms*/
 		osDelay(1);
@@ -295,16 +317,20 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 {
   if((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != RESET)
   {
+	  timeout=HAL_GetTick();
+	  fault=0;
+
+
     /* Retreive Rx messages from RX FIFO0 */
     if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK)
     {
     /* Reception Error */
-    Error_Handler();
+    	Error_Handler();
     }
     if (HAL_FDCAN_ActivateNotification(hfdcan, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
     {
       /* Notification Error */
-      Error_Handler();
+    	Error_Handler();
     }
   }
 }

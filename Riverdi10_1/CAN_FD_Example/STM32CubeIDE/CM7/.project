@@ -632,6 +632,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Battery-PNG.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_CAN_FD.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_CAN_FD.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_Logo-400px.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Logo-400px.cpp</locationURI>
@@ -640,6 +645,11 @@
 			<name>Application/User/generated/image_Riverdi_logo_kolor_RGB_raster.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Riverdi_logo_kolor_RGB_raster.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_Untitled.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Untitled.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_alternate_theme_images_widgets_imageprogress_plain_normal_medium.cpp</name>

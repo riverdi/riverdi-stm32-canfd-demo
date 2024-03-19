@@ -8,14 +8,19 @@ Once USR BTN 1 is pressed, the charging indicator shall start to indicate the ch
 Phase 2: Battery Level and Status Reception over CAN-FD Bus
 The full CAN-FD driver has been developed and the 10.1 is able to receive the status and the level of the battery 
 from 7.0" display over CAN-FD bus.
+--------------------------Done----------------------------------
+
+Phase 3: If the communication from the battery simulator is lost, the 10.1" shall 
+display there is an issue with the HV system. Pull over safely.
 
 
 
 
 Connection:
-Please connect CAN1 of Riverdi 10.1" to CAN1 of Riverdi 7.0". 
+Please connect CAN1 of Riverdi 10.1" to CAN1 of Riverdi 7.0".
+Hold the reset button of the 7 inch, after 3 seconds, the 10.1 shall display
+the error with the HV system.
+This is emulated by using timeout.
 
-
-TO DO:
-1. CANFD Status indicator.
-
+To Do:
+Proper code documentation.
