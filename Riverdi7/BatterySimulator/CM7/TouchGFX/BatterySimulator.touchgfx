@@ -7,26 +7,9 @@
           {
             "Type": "Image",
             "Name": "image1",
-            "Width": 1024,
-            "Height": 600,
-            "RelativeFilename": "synthwave-sports-car.png"
-          },
-          {
-            "Type": "ImageProgress",
-            "Name": "imageProgress1",
-            "X": 362,
-            "Y": 575,
-            "Width": 300,
-            "Height": 10,
-            "FileNameProgress": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium_action.png",
-            "AnchorAtZero": true,
-            "Direction": "Right",
-            "Preset": "alternate_theme\\presets\\imageprogress\\plain\\normal\\medium_active.json",
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium.png",
-            "IndicatorPositionWidth": 300,
-            "IndicatorPositionHeight": 10,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
+            "Width": 1280,
+            "Height": 800,
+            "RelativeFilename": "pxfuel.png"
           },
           {
             "Type": "AnimatedImage",
@@ -47,6 +30,23 @@
             "Width": 400,
             "Height": 147,
             "RelativeFilename": "Logo-400px.png"
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "imageProgress1",
+            "X": 362,
+            "Y": 575,
+            "Width": 300,
+            "Height": 10,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium_action.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\imageprogress\\plain\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
           }
         ],
         "Interactions": []

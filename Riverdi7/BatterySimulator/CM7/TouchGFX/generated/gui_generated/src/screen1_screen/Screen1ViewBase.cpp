@@ -12,18 +12,8 @@ Screen1ViewBase::Screen1ViewBase()
     add(__background);
 
     image1.setXY(0, 0);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_SYNTHWAVE_SPORTS_CAR_ID));
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_PXFUEL_ID));
     add(image1);
-
-    imageProgress1.setXY(362, 575);
-    imageProgress1.setProgressIndicatorPosition(0, 0, 300, 10);
-    imageProgress1.setRange(0, 100);
-    imageProgress1.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
-    imageProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ID));
-    imageProgress1.setBitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ACTION_ID);
-    imageProgress1.setValue(60);
-    imageProgress1.setAnchorAtZero(true);
-    add(imageProgress1);
 
     animatedImage1.setXY(248, 520);
     animatedImage1.setBitmaps(BITMAP_C7BB67AD_72CB_469F_AAB8_1D20CB9D21DF_0_ID, BITMAP_C7BB67AD_72CB_469F_AAB8_1D20CB9D21DF_5_ID);
@@ -34,6 +24,16 @@ Screen1ViewBase::Screen1ViewBase()
     image2.setXY(0, 0);
     image2.setBitmap(touchgfx::Bitmap(BITMAP_LOGO_400PX_ID));
     add(image2);
+
+    imageProgress1.setXY(362, 575);
+    imageProgress1.setProgressIndicatorPosition(0, 0, 300, 10);
+    imageProgress1.setRange(0, 100);
+    imageProgress1.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
+    imageProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ID));
+    imageProgress1.setBitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ACTION_ID);
+    imageProgress1.setValue(60);
+    imageProgress1.setAnchorAtZero(true);
+    add(imageProgress1);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

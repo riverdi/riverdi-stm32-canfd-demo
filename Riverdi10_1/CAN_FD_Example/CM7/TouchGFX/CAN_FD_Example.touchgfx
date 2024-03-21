@@ -9,7 +9,7 @@
             "Name": "image1",
             "Width": 1280,
             "Height": 800,
-            "RelativeFilename": "synthwave-sports-car-_1_.png"
+            "RelativeFilename": "pxfuel.png"
           },
           {
             "Type": "AnimatedImage",
@@ -49,7 +49,7 @@
           {
             "Type": "Image",
             "Name": "image3",
-            "X": 814,
+            "X": 860,
             "Y": 736,
             "Width": 64,
             "Height": 64,
@@ -59,11 +59,11 @@
           {
             "Type": "Image",
             "Name": "image4",
-            "X": 980,
-            "Y": 354,
-            "Width": 300,
-            "Height": 300,
-            "RelativeFilename": "CAN_FD.png",
+            "X": 1030,
+            "Y": 339,
+            "Width": 250,
+            "Height": 250,
+            "RelativeFilename": "CAN_FD_1.png",
             "Alpha": 0
           }
         ],

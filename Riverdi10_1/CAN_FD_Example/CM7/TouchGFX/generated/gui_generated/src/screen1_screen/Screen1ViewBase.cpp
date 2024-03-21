@@ -12,7 +12,7 @@ Screen1ViewBase::Screen1ViewBase()
     add(__background);
 
     image1.setXY(0, 0);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_SYNTHWAVE_SPORTS_CAR__1__ID));
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_PXFUEL_ID));
     add(image1);
 
     animatedImage1.setXY(380, 724);
@@ -35,13 +35,13 @@ Screen1ViewBase::Screen1ViewBase()
     image2.setBitmap(touchgfx::Bitmap(BITMAP_LOGO_400PX_ID));
     add(image2);
 
-    image3.setXY(814, 736);
+    image3.setXY(860, 736);
     image3.setBitmap(touchgfx::Bitmap(BITMAP_UNTITLED_ID));
     image3.setAlpha(0);
     add(image3);
 
-    image4.setXY(980, 354);
-    image4.setBitmap(touchgfx::Bitmap(BITMAP_CAN_FD_ID));
+    image4.setXY(1030, 339);
+    image4.setBitmap(touchgfx::Bitmap(BITMAP_CAN_FD_1_ID));
     image4.setAlpha(0);
     add(image4);
 }

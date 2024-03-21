@@ -9,8 +9,8 @@
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/containers/progress_indicators/ImageProgress.hpp>
 #include <touchgfx/widgets/AnimatedImage.hpp>
+#include <touchgfx/containers/progress_indicators/ImageProgress.hpp>
 
 class Screen1ViewBase : public touchgfx::View<Screen1Presenter>
 {
@@ -29,9 +29,9 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image image1;
-    touchgfx::ImageProgress imageProgress1;
     touchgfx::AnimatedImage animatedImage1;
     touchgfx::Image image2;
+    touchgfx::ImageProgress imageProgress1;
 
 private:
 
