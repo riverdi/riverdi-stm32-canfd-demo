@@ -1,0 +1,53 @@
+/**
+ * \mainpage Battery Simulator Application
+ *
+ * \section Display Display
+ *
+ * This project is based on the 7inch display model (RVT70).
+ *
+ * \section introduction_sec Introduction
+ *
+ * Welcome to the Battery Simulator based on Riverdi 7.0". This project is desiged to 
+ * work with Riverdi 7.0" display and send the battery level and state to Riverdi 10.1" 
+ * display over CAN-FD bus.
+ * 
+ * \section project_overview_sec Project Overview
+ *
+ * The project is structured into several functions for CAN-FD Transmission and display the state and level
+ * on the display.
+ * The main source files needed to be reviewed as following:
+ * - \b FDCAN.c: Source file for the CAN-FD bus.
+ * - \b freertos.c: Source file for the tasks needed for the functionality of the system.
+ * - \b Model.cpp: Main source file for the model.
+ * - \b Screen1Presenter.cpp: Main source file for the screen presenter.
+ * - \b Screen1View.cpp: Main source file for the screen view where the display is updated.
+ *
+ * \section usage_sec Usage
+ *
+ * The application initializes the LCD, TouchGFX, CAN-FD and other peripherals needed for the operation 
+ * of the LCD. It demonstrates the usage of CAN-FD to effectively communicate with other Riverdi display over
+ * CAN-FD Bus.
+ *
+ * \section compilation_sec Compilation
+ *
+ * The application is designed for Riverdi 7.0 Display and can be compiled using ARM toolchains,
+ * preferably in an environment like STM32CubeIDE.
+ *
+ * Steps:
+ *
+ * 1. From STM32CubeIDE folder, open .project file. This will start STM32CubeIDE and import the project
+ * to the workspace.
+ *
+ * 2. From the project tree, select Riverdi_70STM32H7_CM7 then right click and select run.
+ *
+ * Note: If you can't run the project, build the project first.
+ *
+ * \section author_sec Author
+ * - Developed by Riverdi Sp z o.o
+ * - https://riverdi.com
+ * - Date: 22/3/2024
+ *
+ * \section copyright_sec Copyright
+ *
+ * Copyright Riverdi Sp. z o.o., all rights reserved.
+ */

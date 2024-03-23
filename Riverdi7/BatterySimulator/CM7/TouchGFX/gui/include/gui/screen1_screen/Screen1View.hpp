@@ -11,7 +11,22 @@ public:
     virtual ~Screen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    /*  setState Function  */
+    /**
+      * @brief  Function implementing of SetState.
+      * @param  argument: bool for state
+      * @retval None
+      */
     virtual void SetState(bool state);
+
+
+    /* setLevel Function  */
+    /**
+      * @brief  Function implementing of SetLevel.
+      * @param  argument: percentage of the battery.
+      * @retval None
+      */
     virtual void SetLevel(int level);
 protected:
 };

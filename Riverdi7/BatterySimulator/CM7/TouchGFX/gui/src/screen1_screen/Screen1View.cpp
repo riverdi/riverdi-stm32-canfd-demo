@@ -1,3 +1,20 @@
+/**
+  ******************************************************************************
+  * File Name          : Screen1View.cpp
+  * Description        : Code for Screen1View applications
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
 #include <gui/screen1_screen/Screen1View.hpp>
 
 Screen1View::Screen1View()
@@ -17,22 +34,36 @@ void Screen1View::tearDownScreen()
 
 
 
-/*Set the state of the battery*/
+/* Set the state of the battery*/
+
+/*  setState Function  */
+/**
+  * @brief  Function implementing of SetState.
+  * @param  argument: bool for state
+  * @retval None
+  */
 void Screen1View::SetState(bool state)
 {
+	/* If animation is not running*/
 	if(!animatedImage1.isAnimatedImageRunning())
 	{
+		/* If state is charging*/
 		if(state==true)
 		{
+			/* Show the charging animation*/
 			animatedImage1.setAlpha(255);
 			animatedImage1.startAnimation(false, false, true);
 			animatedImage1.invalidate();
 		}
 	}
+
+	/* If animation is running*/
 	if(animatedImage1.isAnimatedImageRunning())
 	{
+		/* If the battery is discharging*/
 		if(state==false)
 		{
+			/* Stop the animation*/
 			animatedImage1.setAlpha(0);
 			animatedImage1.stopAnimation();
 			animatedImage1.invalidate();
@@ -42,9 +73,17 @@ void Screen1View::SetState(bool state)
 
 }
 
-/*Set the level of the battery*/
+/* Set the level of the battery*/
+
+/* setLevel Function  */
+/**
+  * @brief  Function implementing of SetLevel.
+  * @param  argument: percentage of the battery.
+  * @retval None
+  */
 void Screen1View::SetLevel(int level)
 {
+	/* Set the battery level*/
 	imageProgress1.setValue(level);
 	imageProgress1.invalidate();
 

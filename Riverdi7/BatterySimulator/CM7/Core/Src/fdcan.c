@@ -74,15 +74,15 @@ void MX_FDCAN1_Init(void)
   }
   /* USER CODE BEGIN FDCAN1_Init 2 */
 
+  /*Filter Configuration*/
   FDCAN_FilterTypeDef sFilterConfig;
-
-  sFilterConfig.IdType = FDCAN_STANDARD_ID;
-  sFilterConfig.FilterIndex = 0;
-  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
-  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-  sFilterConfig.FilterID1 = 0x07;
+  sFilterConfig.IdType = FDCAN_STANDARD_ID;/*Use standard ID*/
+  sFilterConfig.FilterIndex = 0; /*Use filter index 0*/
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK; /*Filter type Mask*/
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0; /*Store the data to FIFO0*/
+  sFilterConfig.FilterID1 = 0x07; /*Set the filer ID to be 0x07*/
   sFilterConfig.FilterID2 = 0x07;
-  sFilterConfig.RxBufferIndex = 0;
+  sFilterConfig.RxBufferIndex = 0; /*Rx buffer index of 0 since only 1 CAN-FD is used*/
   if (HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig) != HAL_OK)
   {
     /* Filter configuration Error */
@@ -99,15 +99,16 @@ void MX_FDCAN1_Init(void)
     Error_Handler();
   }
 
-  TxHeader.Identifier = 0x10;
-  TxHeader.IdType = FDCAN_STANDARD_ID;
-  TxHeader.TxFrameType = FDCAN_DATA_FRAME;
-  TxHeader.DataLength = FDCAN_DLC_BYTES_2;
-  TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
-  TxHeader.BitRateSwitch = FDCAN_BRS_OFF;
-  TxHeader.FDFormat = FDCAN_FD_CAN;
-  TxHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
-  TxHeader.MessageMarker = 0;
+  /*Declare the TxHeader filer.*/
+  TxHeader.Identifier = 0x10; /*Identifier of 0x10 for Riverdi 10.1.*/
+  TxHeader.IdType = FDCAN_STANDARD_ID; /*Standard ID.*/
+  TxHeader.TxFrameType = FDCAN_DATA_FRAME; /*Data frame.*/
+  TxHeader.DataLength = FDCAN_DLC_BYTES_2; /*Data length of 2.*/
+  TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE; /*Error state Indicator active.*/
+  TxHeader.BitRateSwitch = FDCAN_BRS_OFF; /*Don't switch the bitrate.*/
+  TxHeader.FDFormat = FDCAN_FD_CAN; /*Use the CAN-FD data frame.*/
+  TxHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS; /*No Tx event.*/
+  TxHeader.MessageMarker = 0; /*No need for Message Marker.*/
 
   /* USER CODE END FDCAN1_Init 2 */
 

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['bgra2222_0',['BGRA2222',['../classtouchgfx_1_1_bitmap.html#a23d1a7c7cf0f6da45ca389904e644d55ac0c2138f62b4f4fd00bdbf97c6c6ffd9',1,'touchgfx::Bitmap']]],
+  ['bilinear_5finterpolation_1',['BILINEAR_INTERPOLATION',['../classtouchgfx_1_1_scalable_image.html#a1397613edd6bbf60ba96b2db6d2aba8aa77696f7072bd3d1b5661146f6a839a1e',1,'touchgfx::ScalableImage::BILINEAR_INTERPOLATION'],['../classtouchgfx_1_1_texture_mapper.html#ab4aa214838037a0dc7f8be45d36e08dfa77696f7072bd3d1b5661146f6a839a1e',1,'touchgfx::TextureMapper::BILINEAR_INTERPOLATION']]],
+  ['blit_5fop_5fcopy_2',['BLIT_OP_COPY',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8bab9dabc26b68b5f3478fc08c45f1a7c89',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5f16bit_3',['BLIT_OP_COPY_16BIT',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8bac82edcfbd1201e8254837793a1b30213',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fa4_4',['BLIT_OP_COPY_A4',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba2d18dd37bead1f100c78ff12e7decf46',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fa8_5',['BLIT_OP_COPY_A8',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba7773db1b543e1dcaa7d7ad9e3f88e9b7',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fargb8888_6',['BLIT_OP_COPY_ARGB8888',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba7e59067341c00a48cc48d058b05c17ee',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fargb8888_5fwith_5falpha_7',['BLIT_OP_COPY_ARGB8888_WITH_ALPHA',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba39864829ef8d4b915f7ce1c98cb42b8a',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fl8_8',['BLIT_OP_COPY_L8',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba625db5e940d49136cb78d7bf75cf4bb0',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fwith_5falpha_9',['BLIT_OP_COPY_WITH_ALPHA',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba7c6af851cd2bf41539132a8448b787b2',1,'touchgfx']]],
+  ['blit_5fop_5fcopy_5fwith_5ftransparent_5fpixels_10',['BLIT_OP_COPY_WITH_TRANSPARENT_PIXELS',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba3d1bc2405d9d859be728e1fd492d480f',1,'touchgfx']]],
+  ['blit_5fop_5ffill_11',['BLIT_OP_FILL',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8ba0ef645bd86c854bb8729271b06cb5406',1,'touchgfx']]],
+  ['blit_5fop_5ffill_5f16bit_12',['BLIT_OP_FILL_16BIT',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8baf7ce63affcea8d9c354fc8377f0e7a05',1,'touchgfx']]],
+  ['blit_5fop_5ffill_5fwith_5falpha_13',['BLIT_OP_FILL_WITH_ALPHA',['../namespacetouchgfx.html#a5c99ff39743a4feaa2188efdc075ae8bad23475f9d71fa803cbd23d1cd9137028',1,'touchgfx']]],
+  ['butt_5fcap_5fending_14',['BUTT_CAP_ENDING',['../classtouchgfx_1_1_line.html#aa870de4cdd8581e413fcde0df090f57eabdb15b4d72f580d9a17f853e984ab8ce',1,'touchgfx::Line']]],
+  ['bw_15',['BW',['../classtouchgfx_1_1_bitmap.html#a23d1a7c7cf0f6da45ca389904e644d55adf5c2c2ac9b8451bc03c0b0d2623d22e',1,'touchgfx::Bitmap']]],
+  ['bw_5frle_16',['BW_RLE',['../classtouchgfx_1_1_bitmap.html#a23d1a7c7cf0f6da45ca389904e644d55ac3590d17701152cb9478afa51623db6f',1,'touchgfx::Bitmap']]]
+];

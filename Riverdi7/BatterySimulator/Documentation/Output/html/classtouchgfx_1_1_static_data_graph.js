@@ -1,0 +1,26 @@
+var classtouchgfx_1_1_static_data_graph =
+[
+    [ "StaticDataGraph", "classtouchgfx_1_1_static_data_graph.html#a39da50458495d282e0129915b1600e3a", null ],
+    [ "addDataPoint", "classtouchgfx_1_1_static_data_graph.html#a9e85f9adcd7c7d81feb8aa6ca0c7cd9f", null ],
+    [ "addDataPoint", "classtouchgfx_1_1_static_data_graph.html#a1b1d11d32fa50fcdb7435c9092b2902b", null ],
+    [ "addDataPointScaled", "classtouchgfx_1_1_static_data_graph.html#a78cab58909ca120e0ac5285f2d6f07ef", null ],
+    [ "addValue", "classtouchgfx_1_1_static_data_graph.html#a5dbdf79f3e7cad48837453351d6927a9", null ],
+    [ "deleteDataPoint", "classtouchgfx_1_1_static_data_graph.html#a865017a7c025152a307a1c3e96356854", null ],
+    [ "deleteDataPoint", "classtouchgfx_1_1_static_data_graph.html#a94422bd9ba6d8aec9eb1d4c0f977349d", null ],
+    [ "deleteDataPointIndex", "classtouchgfx_1_1_static_data_graph.html#a95d4053b81965fd63c668bc10b9bd47a", null ],
+    [ "deleteDataPointScaled", "classtouchgfx_1_1_static_data_graph.html#aea1be5edff2cb7ad633aaa2b7dd9c810", null ],
+    [ "deleteIndex", "classtouchgfx_1_1_static_data_graph.html#a24e6d25c09770c9bcf0cea5641c633d1", null ],
+    [ "deleteValue", "classtouchgfx_1_1_static_data_graph.html#a806cf4577fe33b11ab541c98eb4de323", null ],
+    [ "indexToDataPointXScaled", "classtouchgfx_1_1_static_data_graph.html#ab0c257858defb778f53056e29eceb328", null ],
+    [ "indexToDataPointYScaled", "classtouchgfx_1_1_static_data_graph.html#a9a4840fa7b1717589bae970a58dc8fac", null ],
+    [ "indexToScreenXQ5", "classtouchgfx_1_1_static_data_graph.html#a1e14a8549a934ccc20afbbf0ca8a4cb3", null ],
+    [ "indexToScreenYQ5", "classtouchgfx_1_1_static_data_graph.html#a1323aac0e412487e094c27440418c1a7", null ],
+    [ "indexToXAxis", "classtouchgfx_1_1_static_data_graph.html#a9d7c6ab8106d49a2619cd2fda470b2b2", null ],
+    [ "setGraphRangeXAutoScaled", "classtouchgfx_1_1_static_data_graph.html#a2d505bdef600b612b38448e6255a04d4", null ],
+    [ "setGraphRangeYAutoScaled", "classtouchgfx_1_1_static_data_graph.html#a92cc548b8839838cb5d30e59b3a96bd8", null ],
+    [ "setScaleX", "classtouchgfx_1_1_static_data_graph.html#ab0e3792725c7691a8b429e8a881b8978", null ],
+    [ "setScaleY", "classtouchgfx_1_1_static_data_graph.html#aaa45350a2ffaf475165988e6f691e576", null ],
+    [ "xScreenRangeToIndexRange", "classtouchgfx_1_1_static_data_graph.html#a4d016df001eddc4ccafa5a6a75da4127", null ],
+    [ "xValues", "classtouchgfx_1_1_static_data_graph.html#a1a2bd6b6c71dfe38a3dd23ebd8a16ba6", null ],
+    [ "yValues", "classtouchgfx_1_1_static_data_graph.html#a1711d9bf8fa30a8b3de9782ef34106d4", null ]
+];

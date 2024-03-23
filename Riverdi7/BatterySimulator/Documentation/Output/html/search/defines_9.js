@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['i2c1_5fscl_5fctp_5fhaptic_5fgpio_5fport_0',['I2C1_SCL_CTP_HAPTIC_GPIO_Port',['../main_8h.html#a146d1e09754a7cc357ba983a6debfe95',1,'main.h']]],
+  ['i2c1_5fscl_5fctp_5fhaptic_5fpin_1',['I2C1_SCL_CTP_HAPTIC_Pin',['../main_8h.html#a2391c850319cb04600ad203def081690',1,'main.h']]],
+  ['i2c1_5fsda_5fctp_5fhaptic_5fgpio_5fport_2',['I2C1_SDA_CTP_HAPTIC_GPIO_Port',['../main_8h.html#a1bead38b6749fcd0a84fad93bb3ae86d',1,'main.h']]],
+  ['i2c1_5fsda_5fctp_5fhaptic_5fpin_3',['I2C1_SDA_CTP_HAPTIC_Pin',['../main_8h.html#acd46fff41c2fb5fe7c35cfaccd1b5e03',1,'main.h']]],
+  ['idct_5frange_5flimit_4',['IDCT_range_limit',['../jdct_8h.html#acfb9cf7de6055de9ae9151bdc873128b',1,'jdct.h']]],
+  ['ifast_5fscale_5fbits_5',['IFAST_SCALE_BITS',['../jdct_8h.html#a6ef426e1561ed53f797f880bc1514a0b',1,'jdct.h']]],
+  ['img_5fgeterror_6',['IMG_GetError',['../_s_d_l__image_8h.html#aa26bff3cc4fbcfd9dcc1756d1a398ba1',1,'SDL_image.h']]],
+  ['img_5fseterror_7',['IMG_SetError',['../_s_d_l__image_8h.html#a4f62490add1442e80bffdc07c959f10f',1,'SDL_image.h']]],
+  ['include_5fetaskgetstate_8',['INCLUDE_eTaskGetState',['../_free_r_t_o_s_config_8h.html#a4fd1d67d54044ac86e8ffc890180f9f6',1,'FreeRTOSConfig.h']]],
+  ['include_5fuxtaskgetstackhighwatermark_9',['INCLUDE_uxTaskGetStackHighWaterMark',['../_free_r_t_o_s_config_8h.html#a23c7b4b41fe9b575cf2329c7cbe78b86',1,'FreeRTOSConfig.h']]],
+  ['include_5fuxtaskpriorityget_10',['INCLUDE_uxTaskPriorityGet',['../_free_r_t_o_s_config_8h.html#a1279eb797355460aeeec06aa524e91df',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtaskcleanupresources_11',['INCLUDE_vTaskCleanUpResources',['../_free_r_t_o_s_config_8h.html#a7ee138825e57f243c8ee5fd4207b9e26',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtaskdelay_12',['INCLUDE_vTaskDelay',['../_free_r_t_o_s_config_8h.html#a24361a6eb816a965f1ee4e2e08e364f8',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtaskdelayuntil_13',['INCLUDE_vTaskDelayUntil',['../_free_r_t_o_s_config_8h.html#ae8459bfd5b428319bb10de9f504a53aa',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtaskdelete_14',['INCLUDE_vTaskDelete',['../_free_r_t_o_s_config_8h.html#a5ae1434fdf995108dc749ff9329f53bd',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtaskpriorityset_15',['INCLUDE_vTaskPrioritySet',['../_free_r_t_o_s_config_8h.html#ad6858ac8aaf726007fd19752956ef1bd',1,'FreeRTOSConfig.h']]],
+  ['include_5fvtasksuspend_16',['INCLUDE_vTaskSuspend',['../_free_r_t_o_s_config_8h.html#aef8fbb97819ad3d962f334ac298206d1',1,'FreeRTOSConfig.h']]],
+  ['include_5fxqueuegetmutexholder_17',['INCLUDE_xQueueGetMutexHolder',['../_free_r_t_o_s_config_8h.html#a4e2902143b6abf777065c15940321911',1,'FreeRTOSConfig.h']]],
+  ['include_5fxsemaphoregetmutexholder_18',['INCLUDE_xSemaphoreGetMutexHolder',['../_free_r_t_o_s_config_8h.html#ad221128595137414579be33cf8e446d8',1,'FreeRTOSConfig.h']]],
+  ['include_5fxtaskgetcurrenttaskhandle_19',['INCLUDE_xTaskGetCurrentTaskHandle',['../_free_r_t_o_s_config_8h.html#ac96b6a6e70667f266db4278be71cbd78',1,'FreeRTOSConfig.h']]],
+  ['include_5fxtaskgethandle_20',['INCLUDE_xTaskGetHandle',['../_free_r_t_o_s_config_8h.html#a33733d2bbe005751ec3a417e5ac373bf',1,'FreeRTOSConfig.h']]],
+  ['include_5fxtaskgetschedulerstate_21',['INCLUDE_xTaskGetSchedulerState',['../_free_r_t_o_s_config_8h.html#a9ed60ede556830584e6bfd4a3ab4f9de',1,'FreeRTOSConfig.h']]],
+  ['include_5fxtimerpendfunctioncall_22',['INCLUDE_xTimerPendFunctionCall',['../_free_r_t_o_s_config_8h.html#a4b4336acd61a8e513ca2376be84326b5',1,'FreeRTOSConfig.h']]],
+  ['is42s32800j_5ftimeout_23',['IS42S32800J_TIMEOUT',['../fmc_8c.html#aabfc59df65849219deb23a0047b84544',1,'fmc.c']]]
+];

@@ -46,19 +46,24 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 
-uint8_t dir=0; /*Direction for either charging or discharging*/
-uint8_t state=0; /*State of the battery i.e. Charging or discharging*/
-uint8_t level=0; /*Level of the battery (0-100%)*/
 
 
-extern FDCAN_HandleTypeDef hfdcan1;
 
-FDCAN_TxHeaderTypeDef   TxHeader;
-FDCAN_RxHeaderTypeDef   RxHeader;
-uint8_t               TxData[2];
-uint8_t               RxData[2];
-int indx = 0;
 
+extern FDCAN_HandleTypeDef hfdcan1; /*!< Instant of FDCANHandleTypedef*/
+
+FDCAN_TxHeaderTypeDef   TxHeader; /*!< Tx Header of CAN-FD*/
+FDCAN_RxHeaderTypeDef   RxHeader; /*!< Rx Header of CAN-FD*/
+uint8_t               TxData[2];  /*!< Tx data  buffer*/
+uint8_t               RxData[2]; /*!< Rx data  buffer*/
+
+uint8_t dir=0;  /*!< Direction for either charging or discharging*/
+
+
+uint8_t state=0; /*!< State of the battery i.e. Charging or discharging*/
+
+
+uint8_t level=0; /*!< Level of the battery (0-100%)*/
 
 
 /* USER CODE END Variables */
@@ -320,26 +325,33 @@ void StartCANFD_Task(void *argument)
   /* Infinite loop */
   for(;;)
   {
+	  /*If there is new data for the battery state (charging/discharging)*/
 	  if(osMessageQueueGetCount(CANFD_BatteryState_QueueHandle)>0)
 	  {
+		  /*Get the new value and store it in first index of the data buffer*/
 		  if(osMessageQueueGet(CANFD_BatteryState_QueueHandle,&TxData[0], 0, 0)==osOK)
 		  {
 
 		  }
 	  }
 
+	  /*If there is new data for the charging level*/
 	  if(osMessageQueueGetCount(CANFD_BatteryLevelQueueHandle)>0)
 	  {
+		  /*Get the new value and store it in second index of the data buffer*/
 		  if(osMessageQueueGet(CANFD_BatteryLevelQueueHandle,&TxData[1], 0, 0)==osOK)
 		  {
 
 		  }
 	  }
 
+	  /*Push the data to CAN-FD FIFO*/
 	  if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &TxHeader, TxData)!= HAL_OK)
 	  {
 	   Error_Handler();
 	  }
+
+	  /*Delay by 10ms*/
     osDelay(10);
   }
   /* USER CODE END StartCANFD_Task */

@@ -1,0 +1,26 @@
+var classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct =
+[
+    [ "WideTextInternalStruct", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#aa4d6242d8f9614c50cc7c5679e5bb978", null ],
+    [ "addWord", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#aa1ae6566506ee9a1f39ca718204b8ec2", null ],
+    [ "ellipsisAtEndOfLine", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#adbcff085600d1c8ba4f103a7b1e972e7", null ],
+    [ "getCharsRead", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a2e2e7119e2b9e9e41841275f7ef4a13d", null ],
+    [ "getCurrChar", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#aca7374e34fa772d383f090b975f126a1", null ],
+    [ "getLineWidth", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#ab0e5044090818e9c6ddaf7d33c5925b1", null ],
+    [ "isSpace", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#acb9bce29713bcd5b983b194582bdb3cd", null ],
+    [ "scanStringLengthForLine", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#afe0dddc5af6e79826a752fa5947ec631", null ],
+    [ "areaHeight", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a73633ee55f86faddaaa7f8d054a7208d", null ],
+    [ "areaWidth", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a1dd0841313ce85a1924cb43d13864052", null ],
+    [ "charsRead", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a8d64e7d277866867b595df3d3f80fa91", null ],
+    [ "charsReadAhead", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#afa45305a452b02fa1421d2a071ec733c", null ],
+    [ "currChar", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a3a18f0f548b0e47161eb305193372e00", null ],
+    [ "ellipsisGlyphWidth", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a4a0b2d333a7867f640c8fccdf340f4f9", null ],
+    [ "font", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#aa11da001847a95e048397f8d86f8c117", null ],
+    [ "linespace", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#ade26dbb806465aa47f618f41ac88c63f", null ],
+    [ "textDirection", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a76af35a1e25b3a48ab864c275768d2fb", null ],
+    [ "tp", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#ad12219b1b2344ddae482f04965ad0b0f", null ],
+    [ "useEllipsis", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#acf5daf32a5d3e4f67c48f28d763a6f1d", null ],
+    [ "wideTextAction", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a88688b079c9e2a780ee710f09d35c751", null ],
+    [ "widthAhead", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a066befe4e00fc2cc6888cab29aafe0c6", null ],
+    [ "widthUsed", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a0bad5a867da6afa707f4fb0cd658fa21", null ],
+    [ "widthWithoutWhiteSpaceAtEnd", "classtouchgfx_1_1_l_c_d_1_1_wide_text_internal_struct.html#a99a063cc4895ca7f41cf0d695c0e93af", null ]
+];

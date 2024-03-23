@@ -13,6 +13,12 @@ public:
         modelListener = listener;
     }
 
+    /* Tick of TouchGFX Function */
+    /**
+      * @brief  Function implementing of Tick.
+      * @param  argument: Not used
+      * @retval None
+      */
     void tick();
 protected:
     ModelListener* modelListener;
