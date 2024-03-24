@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['mco1_5fgpio_5fport_0',['MCO1_GPIO_Port',['../main_8h.html#ae0628ca073fe92376d8b6143e9a5545e',1,'main.h']]],
+  ['mco1_5fpin_1',['MCO1_Pin',['../main_8h.html#a2c42f9344047d90e46acb267b31a3cf8',1,'main.h']]],
+  ['mcu_5fchroma_5f420_5fsize_5fbytes_2',['MCU_CHROMA_420_SIZE_BYTES',['../_hardware_m_j_p_e_g_decoder_8cpp.html#a95f598a81938201d853bba42338e161b',1,'HardwareMJPEGDecoder.cpp']]],
+  ['mcu_5fheight_5fpixels_3',['MCU_HEIGHT_PIXELS',['../_hardware_m_j_p_e_g_decoder_8cpp.html#a96c1f8ce6c1eb7aa8f9207c736858ffd',1,'HardwareMJPEGDecoder.cpp']]],
+  ['mcu_5fwidth_5fpixels_4',['MCU_WIDTH_PIXELS',['../_hardware_m_j_p_e_g_decoder_8cpp.html#a44511d71d6bcbfef361c1f861ede3540',1,'HardwareMJPEGDecoder.cpp']]],
+  ['memory_5fflash_5fsize_5',['MEMORY_FLASH_SIZE',['../quadspi_8h.html#a99056182ff39d5cab910405c1f931836',1,'quadspi.h']]],
+  ['memory_5fpage_5fsize_6',['MEMORY_PAGE_SIZE',['../quadspi_8h.html#acec51ea00872290be9953f8a76ba1e2b',1,'quadspi.h']]],
+  ['memory_5fsector_5fsize_7',['MEMORY_SECTOR_SIZE',['../quadspi_8h.html#a04fa27dc99bae1e676fd6a65695ab272',1,'quadspi.h']]],
+  ['mt25ql512g_5fsr_5fwip_8',['MT25QL512G_SR_WIP',['../quadspi_8c.html#a34783f0f2158aac82e063a20de233ce7',1,'quadspi.c']]],
+  ['mt25ql512g_5fsr_5fwren_9',['MT25QL512G_SR_WREN',['../quadspi_8c.html#a96c14223d2c7a320b8839fb73b6ea77e',1,'quadspi.c']]],
+  ['mt25tl01g_5fdummy_5fcycles_5fread_10',['MT25TL01G_DUMMY_CYCLES_READ',['../quadspi_8c.html#a96e231e402cf1fe9cf9359052064c46b',1,'quadspi.c']]],
+  ['mt25tl01g_5fdummy_5fcycles_5fread_5fdtr_11',['MT25TL01G_DUMMY_CYCLES_READ_DTR',['../quadspi_8c.html#abc54171134029da39f31ef718c211eef',1,'quadspi.c']]],
+  ['mt25tl01g_5fdummy_5fcycles_5fread_5fquad_12',['MT25TL01G_DUMMY_CYCLES_READ_QUAD',['../quadspi_8c.html#a7c352f14f6116cc018f7e96c221fa279',1,'quadspi.c']]],
+  ['mt25tl01g_5fdummy_5fcycles_5fread_5fquad_5fdtr_13',['MT25TL01G_DUMMY_CYCLES_READ_QUAD_DTR',['../quadspi_8c.html#a0ba2e76d3c9c4d01eeffbfbdc46f5b73',1,'quadspi.c']]],
+  ['mutex_5fcreate_14',['MUTEX_CREATE',['../_dedicated_buffer_video_controller_8hpp.html#a6003977acce82a5d50f2132660a2bbb6',1,'MUTEX_CREATE:&#160;DedicatedBufferVideoController.hpp'],['../_hardware_m_j_p_e_g_decoder_8hpp.html#a6003977acce82a5d50f2132660a2bbb6',1,'MUTEX_CREATE:&#160;HardwareMJPEGDecoder.hpp'],['../_s_t_m32_d_m_a_8hpp.html#a6003977acce82a5d50f2132660a2bbb6',1,'MUTEX_CREATE:&#160;STM32DMA.hpp']]],
+  ['mutex_5flock_15',['MUTEX_LOCK',['../_dedicated_buffer_video_controller_8hpp.html#af1b008061fe84eb508e6aef5b2e37f52',1,'MUTEX_LOCK:&#160;DedicatedBufferVideoController.hpp'],['../_hardware_m_j_p_e_g_decoder_8hpp.html#af1b008061fe84eb508e6aef5b2e37f52',1,'MUTEX_LOCK:&#160;HardwareMJPEGDecoder.hpp'],['../_s_t_m32_d_m_a_8hpp.html#af1b008061fe84eb508e6aef5b2e37f52',1,'MUTEX_LOCK:&#160;STM32DMA.hpp']]],
+  ['mutex_5ftype_16',['MUTEX_TYPE',['../_dedicated_buffer_video_controller_8hpp.html#a94ada48918e73511c91e3e0e885fe763',1,'MUTEX_TYPE:&#160;DedicatedBufferVideoController.hpp'],['../_hardware_m_j_p_e_g_decoder_8hpp.html#a94ada48918e73511c91e3e0e885fe763',1,'MUTEX_TYPE:&#160;HardwareMJPEGDecoder.hpp'],['../_s_t_m32_d_m_a_8hpp.html#a94ada48918e73511c91e3e0e885fe763',1,'MUTEX_TYPE:&#160;STM32DMA.hpp']]],
+  ['mutex_5funlock_17',['MUTEX_UNLOCK',['../_dedicated_buffer_video_controller_8hpp.html#a2e449246cf2d393ed6973729785e9e0c',1,'MUTEX_UNLOCK:&#160;DedicatedBufferVideoController.hpp'],['../_hardware_m_j_p_e_g_decoder_8hpp.html#a2e449246cf2d393ed6973729785e9e0c',1,'MUTEX_UNLOCK:&#160;HardwareMJPEGDecoder.hpp'],['../_s_t_m32_d_m_a_8hpp.html#a2e449246cf2d393ed6973729785e9e0c',1,'MUTEX_UNLOCK:&#160;STM32DMA.hpp']]]
+];

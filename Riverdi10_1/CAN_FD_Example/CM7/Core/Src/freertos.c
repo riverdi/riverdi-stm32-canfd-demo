@@ -46,22 +46,22 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 
-/*Declare CAN-FD handletypedef as extern since it is
- * in fdcan.c source file
- *  */
+/*!< Declare CAN-FD handletypedef */
 extern FDCAN_HandleTypeDef hfdcan1;
 
-/*Declare the RX and TX header for the CAN-FD */
+/*!< Declare the RX and TX header for the CAN-FD */
 FDCAN_TxHeaderTypeDef   TxHeader;
 FDCAN_RxHeaderTypeDef   RxHeader;
 
 /*
- * Array to store both Tx and Rx data of the CAN-FD data.
+ *!< Array to store both Tx and Rx data of the CAN-FD data.
+ *!< RxData[0] is the level
+ *!< RxData[1] is the status
  * */
 uint8_t               TxData[2];
 uint8_t               RxData[2];
 
-/*Timeout management
+/*!< Timeout management
  *
  * Since the 10.1 is acting as dashboard of EV, an emulation
  * of CAN-FD data is lost by using timeout.
@@ -263,17 +263,17 @@ void StartChargerLevelTask(void *argument)
 	{
 
 
-		/*Put the Charge level into the queue*/
+		/*!< Put the Charge level into the queue*/
 
 		osMessageQueuePut(ChargeLevelQueueHandle, &RxData[1], 0, 0);
 
-		/*This task shall be called each 100 milliseconds
-		 * Don't use HAL_Delay since it is blocking delay
-		 * and it will waste CPU cycles.
-		 *
-		 * Using osDelay will notify the freeRTOS to put this task
-		 * into blocked status until the delay period has elapsed
-		 * (won't be executed unlike HAL_Delay).
+		/*!< This task shall be called each 100 milliseconds
+		 *!< Don't use HAL_Delay since it is blocking delay
+		 *!< and it will waste CPU cycles.
+		 *!<
+		 *!< Using osDelay will notify the freeRTOS to put this task
+		 *!< into blocked status until the delay period has elapsed
+		 *!< (won't be executed unlike HAL_Delay).
 		 * */
 		osDelay(1);
 	}
@@ -294,18 +294,18 @@ void StartChargeStatuseTask(void *argument)
 
 	for(;;)
 	{
-		/*Assume that there is fault in the HV system*/
+		/*!< Assume that there is fault in the HV system*/
 		if(HAL_GetTick()-timeout>3000)
 		{
 			fault=1;
 		}
-		/*Push the current push button status to the queue*/
+		/*!< Push the current charge status to the queue*/
 		osMessageQueuePut(ChargeStateQueueHandle, &RxData[0], 0, 0);
 
-		/*Push the error state to the queue*/
+		/*!< Push the error state to the queue*/
 		osMessageQueuePut(FaultQueueHandle,&fault,0,0);
 
-		/*Call this task each 50ms*/
+		/*!< Call this task each 1ms*/
 		osDelay(1);
 	}
   /* USER CODE END StartChargeStatuseTask */
@@ -313,23 +313,32 @@ void StartChargeStatuseTask(void *argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+
+/*!< FD CAN CallBack function
+ *!< This function shall be called when the
+ *!< CAN-FD FIFO is received new message.
+ * */
 void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 {
+	/*!< If there is new message
+	 */
   if((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != RESET)
   {
+	  /*!< Reset timeout and error state*/
 	  timeout=HAL_GetTick();
 	  fault=0;
 
 
-    /* Retreive Rx messages from RX FIFO0 */
+    /*!< Retreive Rx messages from RX FIFO0 */
     if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK)
     {
-    /* Reception Error */
+    /*!< Reception Error */
     	Error_Handler();
     }
+    /*!< Enable the notification again*/
     if (HAL_FDCAN_ActivateNotification(hfdcan, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
     {
-      /* Notification Error */
+      /*!< Notification Error */
     	Error_Handler();
     }
   }

@@ -73,13 +73,14 @@ void MX_FDCAN1_Init(void)
   /* USER CODE BEGIN FDCAN1_Init 2 */
   FDCAN_FilterTypeDef sFilterConfig;
 
-  sFilterConfig.IdType = FDCAN_STANDARD_ID;
-  sFilterConfig.FilterIndex = 0;
-  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
-  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-  sFilterConfig.FilterID1 = 0x10;
-  sFilterConfig.FilterID2 = 0x10;
-  sFilterConfig.RxBufferIndex = 0;
+  /*!< Filter configuration.*/
+  sFilterConfig.IdType = FDCAN_STANDARD_ID; //Standard ID.
+  sFilterConfig.FilterIndex = 0; //Use filter index 0.
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK; //Filter type to mask.
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0; //Store the data to FIFO0.
+  sFilterConfig.FilterID1 = 0x10; //Filter ID of 0x10.
+  sFilterConfig.FilterID2 = 0x10; //Filter ID of 0x10.
+  sFilterConfig.RxBufferIndex = 0; //Set the index to 0.
   if (HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig) != HAL_OK)
   {
     /* Filter configuration Error */
@@ -95,16 +96,16 @@ void MX_FDCAN1_Init(void)
     /* Notification Error */
     Error_Handler();
   }
-
-  TxHeader.Identifier = 0x07;
-  TxHeader.IdType = FDCAN_STANDARD_ID;
-  TxHeader.TxFrameType = FDCAN_DATA_FRAME;
-  TxHeader.DataLength = FDCAN_DLC_BYTES_2;
-  TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
-  TxHeader.BitRateSwitch = FDCAN_BRS_OFF;
-  TxHeader.FDFormat = FDCAN_FD_CAN;
-  TxHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
-  TxHeader.MessageMarker = 0;
+  /*Declare the TxHeader filer.*/
+  TxHeader.Identifier = 0x07; // Riverdi 7.0 Identifier.
+  TxHeader.IdType = FDCAN_STANDARD_ID; //Standard ID.
+  TxHeader.TxFrameType = FDCAN_DATA_FRAME;//Data frame.
+  TxHeader.DataLength = FDCAN_DLC_BYTES_2; //Number of bytes to be send 2.
+  TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE; //Error state is active.
+  TxHeader.BitRateSwitch = FDCAN_BRS_OFF; // disable bitrate switch.
+  TxHeader.FDFormat = FDCAN_FD_CAN; //Use CAN-FD format.
+  TxHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS; //No Tx event.
+  TxHeader.MessageMarker = 0; //No message marker.
 
   /* USER CODE END FDCAN1_Init 2 */
 

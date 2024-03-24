@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['r_5fcs_5fgpio_5fport_0',['R_CS_GPIO_Port',['../main_8h.html#ae55c1606058e2670376a7ff562a47ffc',1,'main.h']]],
+  ['r_5fcs_5fpin_1',['R_CS_Pin',['../main_8h.html#a394374dd1f6fc79b9d05f98781f3fba8',1,'main.h']]],
+  ['r_5fgpio0_5fgpio_5fport_2',['R_GPIO0_GPIO_Port',['../main_8h.html#ad2cb81b8232f7a5bee70b20c678fd4ef',1,'main.h']]],
+  ['r_5fgpio0_5fpin_3',['R_GPIO0_Pin',['../main_8h.html#ae7b1d4c2ede022093228eb48828059ca',1,'main.h']]],
+  ['r_5fgpio1_5fgpio_5fport_4',['R_GPIO1_GPIO_Port',['../main_8h.html#a42aed194b5f08d2f8b7b2628edeaca12',1,'main.h']]],
+  ['r_5fgpio1_5fpin_5',['R_GPIO1_Pin',['../main_8h.html#a4f67535f63a0861a454f9e60d15f3c5b',1,'main.h']]],
+  ['r_5fint_5fgpio_5fport_6',['R_INT_GPIO_Port',['../main_8h.html#a96a1d9f621f43ff3a486f372c0f0ca21',1,'main.h']]],
+  ['r_5fint_5fpin_7',['R_INT_Pin',['../main_8h.html#a7b820d59a6aef97bc8d3346d701a239a',1,'main.h']]],
+  ['r_5frst_5fgpio_5fport_8',['R_RST_GPIO_Port',['../main_8h.html#aed6a98261146ae4388d265fee6c5b470',1,'main.h']]],
+  ['r_5frst_5fpin_9',['R_RST_Pin',['../main_8h.html#a09a091273159ba8006ffc6f13dca313b',1,'main.h']]],
+  ['read_5fconfiguration_5freg_5fcmd_10',['READ_CONFIGURATION_REG_CMD',['../quadspi_8c.html#a9a5d6d1e6eb4c031588d180b603db1f6',1,'quadspi.c']]],
+  ['read_5fstatus_5freg1_5fcmd_11',['READ_STATUS_REG1_CMD',['../quadspi_8c.html#aa6d23dd2ac77b9fc4a8ae5d9c52f2ce2',1,'quadspi.c']]],
+  ['read_5fstatus_5freg2_5fcmd_12',['READ_STATUS_REG2_CMD',['../quadspi_8c.html#a3d6ca82a7cf4380c547004b4de10cb6f',1,'quadspi.c']]],
+  ['read_5fstatus_5freg3_5fcmd_13',['READ_STATUS_REG3_CMD',['../quadspi_8c.html#af8215f11cb02f3a6e9ea79250cadd565',1,'quadspi.c']]],
+  ['read_5fstatus_5freg_5fcmd_14',['READ_STATUS_REG_CMD',['../quadspi_8c.html#aa3c6b4a899c5b0875dfcf503f1e41b63',1,'quadspi.c']]],
+  ['read_5fvol_5fcfg_5freg_5fcmd_15',['READ_VOL_CFG_REG_CMD',['../quadspi_8c.html#ad62fe31b412caa3fe5d5454bb6a5f5d4',1,'quadspi.c']]],
+  ['refresh_5fcount_16',['REFRESH_COUNT',['../fmc_8c.html#abc1f890aab54c0fb4e137a46abce08ee',1,'fmc.c']]],
+  ['reset_5fenable_5fcmd_17',['RESET_ENABLE_CMD',['../quadspi_8c.html#aaa9f0b43b7e4f0f5caf4aa703dc794eb',1,'quadspi.c']]],
+  ['reset_5fexecute_5fcmd_18',['RESET_EXECUTE_CMD',['../quadspi_8c.html#a28d20758ab231a6531645c90fc03a5ae',1,'quadspi.c']]]
+];
