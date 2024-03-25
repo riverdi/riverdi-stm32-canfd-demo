@@ -4,4 +4,4 @@ freertos.c:290:6:StartChargeStatuseTask	8	static
 freertos.c:146:6:vApplicationIdleHook	0	static
 freertos.c:161:6:vApplicationStackOverflowHook	0	static
 freertos.c:174:6:MX_FREERTOS_Init	8	static
-freertos.c:316:6:HAL_FDCAN_RxFifo0Callback	8	static
+freertos.c:321:6:HAL_FDCAN_RxFifo0Callback	8	static

@@ -1,7 +1,7 @@
 Screen1Presenter.hpp:28:13:Screen1Presenter::~Screen1Presenter()	0	static
-Screen1Presenter.cpp:10:6:virtual void Screen1Presenter::activate()	0	static
-Screen1Presenter.cpp:21:6:virtual void Screen1Presenter::setChargeLevel(int)	0	static
-Screen1Presenter.cpp:26:6:virtual void Screen1Presenter::setChargeState(bool)	0	static
-Screen1Presenter.cpp:31:6:virtual void Screen1Presenter::SetFault(bool)	0	static
+Screen1Presenter.cpp:27:6:virtual void Screen1Presenter::activate()	0	static
+Screen1Presenter.cpp:43:6:virtual void Screen1Presenter::setChargeLevel(int)	0	static
+Screen1Presenter.cpp:58:6:virtual void Screen1Presenter::setChargeState(bool)	0	static
+Screen1Presenter.cpp:70:6:virtual void Screen1Presenter::SetFault(bool)	0	static
 Screen1Presenter.hpp:28:13:virtual Screen1Presenter::~Screen1Presenter()	8	static
-Screen1Presenter.cpp:4:1:Screen1Presenter::Screen1Presenter(Screen1View&)	8	static
+Screen1Presenter.cpp:21:1:Screen1Presenter::Screen1Presenter(Screen1View&)	8	static

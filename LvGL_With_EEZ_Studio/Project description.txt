@@ -1,0 +1,15 @@
+This repository is about integration EEZ Studio (https://www.envox.eu/studio/studio-introduction/).
+EEZ Studio is a free open source GUI designer that supports LvGL V8.3 and V9.
+The current version of this project is V8.3.
+Instruction:
+Import the porject to STM32CubeIDE and run the project on Riverdi 5" display.
+The UI shall display the following:
+
+1. Two spinner (left and right top corner),
+2. Chart in the middle (empty for now).
+3. LED control. Bu toggling the state of the button, the USER_LED shall toggle according to the state of the button.
+4. 2 guages that shall display animation.
+
+TO DO:
+
+1. EEZ prot for 7.0 and 10.1.
