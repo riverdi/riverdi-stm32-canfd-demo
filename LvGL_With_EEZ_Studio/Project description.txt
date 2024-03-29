@@ -10,6 +10,17 @@ The UI shall display the following:
 3. LED control. Bu toggling the state of the button, the USER_LED shall toggle according to the state of the button.
 4. 2 guages that shall display animation.
 
+
+
+LvGL UI with EEZ Studio and Riverdi 10.1.
+A simple UI using EEZ Studio has been developed to work with Riverdi 10.1.
+The UI features the following:
+1. A progress bar to show the progress and in term of percentage.
+2. Silder to control the brightness of th display.
+3. LED control to control the state of the USER_LED.
+4. Spinner to show that LvGL with EEZ Studio has been integrated.
+
+
 TO DO:
 
-1. EEZ prot for 7.0 and 10.1.
+TBA.
