@@ -14,7 +14,7 @@ uint16_t touchgfx::Font::getStringWidth(const touchgfx::Unicode::UnicodeChar* te
 {
     va_list pArg;
     va_start(pArg, text);
-    uint16_t width = getStringWidthLTR(TEXT_DIRECTION_LTR, text, pArg);
+    uint16_t width = getStringWidthRTL(TEXT_DIRECTION_LTR, text, pArg);
     va_end(pArg);
     return width;
 }
@@ -23,13 +23,14 @@ uint16_t touchgfx::Font::getStringWidth(touchgfx::TextDirection textDirection, c
 {
     va_list pArg;
     va_start(pArg, text);
-    uint16_t width = getStringWidthLTR(textDirection, text, pArg);
+    uint16_t width = getStringWidthRTL(textDirection, text, pArg);
     va_end(pArg);
     return width;
 }
 
 touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(TextDirection direction)
 {
+    nextCharacters.replaceAt0(unicodeConverter(direction));
     if (fontGsubTable && nextCharacters.peekChar())
     {
         substituteGlyphs();
@@ -45,13 +46,14 @@ touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(TextDirec
 void touchgfx::TextProvider::initializeInternal()
 {
     fillInputBuffer();
+    unicodeConverterInit();
 }
 
 void touchgfx::LCD::drawString(touchgfx::Rect widgetArea, const touchgfx::Rect& invalidatedArea, const touchgfx::LCD::StringVisuals& stringVisuals, const touchgfx::Unicode::UnicodeChar* format, ...)
 {
     va_list pArg;
     va_start(pArg, format);
-    drawStringLTR(widgetArea, invalidatedArea, stringVisuals, format, pArg);
+    drawStringRTL(widgetArea, invalidatedArea, stringVisuals, format, pArg);
     va_end(pArg);
 }
 
@@ -59,10 +61,13 @@ void touchgfx::LCD::drawString(touchgfx::Rect widgetArea, const touchgfx::Rect& 
 extern const touchgfx::TypedText::TypedTextData* const typedTextDatabaseArray[];
 
 TEXT_LOCATION_FLASH_PRAGMA
-KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
+KEEP extern const touchgfx::Unicode::UnicodeChar texts_all_languages[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
+    0x2, 0x0, // @0 "<>"
+    0x30, 0x0 // @2 "0"
+};
 
 TEXT_LOCATION_FLASH_PRAGMA
-KEEP extern const touchgfx::Unicode::UnicodeChar textsGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
+KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 
 // Array holding dynamically installed languages
 struct TranslationHeader
@@ -76,9 +81,6 @@ static const TranslationHeader* languagesArray[1] = { 0 };
 // Compiled and linked in languages
 static const uint32_t* const staticLanguageIndices[] = {
     indicesGb
-};
-static const touchgfx::Unicode::UnicodeChar* const staticLanguageTexts[] = {
-    textsGb
 };
 
 touchgfx::LanguageId touchgfx::Texts::currentLanguage = static_cast<touchgfx::LanguageId>(0);
@@ -101,7 +103,7 @@ void touchgfx::Texts::setLanguage(touchgfx::LanguageId id)
         else
         {
             // Compiled and linked in languages
-            currentLanguagePtr = staticLanguageTexts[id];
+            currentLanguagePtr = texts_all_languages;
             currentLanguageIndices = staticLanguageIndices[id];
             currentLanguageTypedText = typedTextDatabaseArray[id];
         }

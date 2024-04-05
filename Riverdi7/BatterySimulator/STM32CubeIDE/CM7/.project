@@ -747,6 +747,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Logo-400px.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_Riverdi_logo_kolor_RGB.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Riverdi_logo_kolor_RGB.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_c7bb67ad-72cb-469f-aab8-1d20cb9d21df-0.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_c7bb67ad-72cb-469f-aab8-1d20cb9d21df-0.cpp</locationURI>

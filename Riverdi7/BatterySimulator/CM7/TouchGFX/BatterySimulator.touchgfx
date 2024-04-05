@@ -28,8 +28,8 @@
             "Type": "Image",
             "Name": "image2",
             "Width": 400,
-            "Height": 147,
-            "RelativeFilename": "Logo-400px.png"
+            "Height": 143,
+            "RelativeFilename": "Riverdi_logo_kolor_RGB.png"
           },
           {
             "Type": "ImageProgress",
@@ -111,6 +111,6 @@
       "Video"
     ]
   },
-  "Version": "4.23.1",
+  "Version": "4.23.2",
   "CreatedBy": "4.23.1"
 }

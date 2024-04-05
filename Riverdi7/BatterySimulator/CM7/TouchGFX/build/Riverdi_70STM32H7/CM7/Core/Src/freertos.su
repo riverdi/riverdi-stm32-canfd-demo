@@ -1,7 +1,7 @@
-freertos.c:235:6:StartDefaultTask	8	static
-freertos.c:255:6:StartBatteryControl	8	static
-freertos.c:317:6:StartCANFD_Task	8	static
-freertos.c:140:6:vApplicationIdleHook	0	static
-freertos.c:155:6:vApplicationStackOverflowHook	0	static
-freertos.c:168:6:MX_FREERTOS_Init	8	static
-freertos.c:350:6:HAL_FDCAN_RxFifo0Callback	8	static
+freertos.c:240:6:StartDefaultTask	8	static
+freertos.c:260:6:StartBatteryControl	8	static
+freertos.c:322:6:StartCANFD_Task	8	static
+freertos.c:145:6:vApplicationIdleHook	0	static
+freertos.c:160:6:vApplicationStackOverflowHook	0	static
+freertos.c:173:6:MX_FREERTOS_Init	8	static
+freertos.c:362:6:HAL_FDCAN_RxFifo0Callback	8	static

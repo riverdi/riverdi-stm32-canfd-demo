@@ -12,6 +12,8 @@ enum LANGUAGES
 
 enum TEXTS
 {
+    T___SINGLEUSE_TE2G,
+    T___SINGLEUSE_EEFG,
     NUMBER_OF_TEXT_KEYS
 };
 

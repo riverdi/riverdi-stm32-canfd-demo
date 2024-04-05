@@ -7,6 +7,7 @@
           {
             "Type": "Image",
             "Name": "image1",
+            "Y": 2,
             "Width": 1280,
             "Height": 800,
             "RelativeFilename": "pxfuel.png"
@@ -14,7 +15,7 @@
           {
             "Type": "AnimatedImage",
             "Name": "animatedImage1",
-            "X": 380,
+            "X": 282,
             "Y": 724,
             "Width": 128,
             "Height": 96,
@@ -30,10 +31,9 @@
             "Y": 772,
             "Width": 300,
             "Height": 10,
-            "FileNameProgress": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_tiny_action.png",
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium_active.png",
             "AnchorAtZero": true,
             "Direction": "Right",
-            "Preset": "alternate_theme\\presets\\imageprogress\\plain\\normal\\medium_active.json",
             "FileNameBackground": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium.png",
             "IndicatorPositionWidth": 300,
             "IndicatorPositionHeight": 10,
@@ -42,14 +42,15 @@
           {
             "Type": "Image",
             "Name": "image2",
+            "Y": 2,
             "Width": 400,
-            "Height": 147,
-            "RelativeFilename": "Logo-400px.png"
+            "Height": 143,
+            "RelativeFilename": "Riverdi_logo_kolor_RGB.png"
           },
           {
             "Type": "Image",
             "Name": "image3",
-            "X": 860,
+            "X": 905,
             "Y": 736,
             "Width": 64,
             "Height": 64,
@@ -63,8 +64,36 @@
             "Y": 339,
             "Width": 250,
             "Height": 250,
-            "RelativeFilename": "CAN_FD_1.png",
-            "Alpha": 0
+            "RelativeFilename": "CAN_FD_1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 797,
+            "Y": 762,
+            "Width": 56,
+            "Height": 20,
+            "TextId": "__SingleUse_EEFG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_TE2G",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image5",
+            "X": 410,
+            "Y": 732,
+            "Width": 80,
+            "Height": 80,
+            "RelativeFilename": "AdobeStock_576683640.png"
           }
         ],
         "Interactions": []
@@ -131,6 +160,6 @@
       "Video"
     ]
   },
-  "Version": "4.23.1",
+  "Version": "4.23.2",
   "CreatedBy": "4.23.1"
 }

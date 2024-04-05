@@ -30,7 +30,7 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1713:19:HAL_LTDC_SetPixelFormat_NoReload	16	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1756:19:HAL_LTDC_SetAlpha_NoReload	16	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1799:19:HAL_LTDC_SetAddress_NoReload	16	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1846:19:HAL_LTDC_SetPitch_NoReload	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1846:19:HAL_LTDC_SetPitch_NoReload	12	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1913:19:HAL_LTDC_ConfigColorKeying_NoReload	0	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1947:19:HAL_LTDC_EnableColorKeying_NoReload	0	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c:1980:19:HAL_LTDC_DisableColorKeying_NoReload	0	static

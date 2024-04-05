@@ -18,7 +18,7 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:1644:19:HAL_SPI_TransmitReceive_IT	16	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:1969:19:HAL_SPI_Transmit_DMA	24	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2121:19:HAL_SPI_Receive_DMA	24	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2273:19:HAL_SPI_TransmitReceive_DMA	32	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2273:19:HAL_SPI_TransmitReceive_DMA	24	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2460:19:HAL_SPI_Abort	16	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2745:19:HAL_SPI_DMAPause	0	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:2760:19:HAL_SPI_DMAResume	0	static

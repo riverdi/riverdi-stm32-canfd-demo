@@ -1,2 +1,2 @@
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:25:167:void __tcf_0()	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:23:26:touchgfx::GeneratedFont& getFont_verdana_20_4bpp()	3
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:119:168:void __tcf_0()	1
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:117:26:touchgfx::GeneratedFont& getFont_verdana_20_4bpp()	3

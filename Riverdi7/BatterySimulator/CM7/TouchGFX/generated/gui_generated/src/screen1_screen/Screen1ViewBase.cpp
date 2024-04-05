@@ -22,7 +22,7 @@ Screen1ViewBase::Screen1ViewBase()
     add(animatedImage1);
 
     image2.setXY(0, 0);
-    image2.setBitmap(touchgfx::Bitmap(BITMAP_LOGO_400PX_ID));
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_RIVERDI_LOGO_KOLOR_RGB_ID));
     add(image2);
 
     imageProgress1.setXY(362, 575);

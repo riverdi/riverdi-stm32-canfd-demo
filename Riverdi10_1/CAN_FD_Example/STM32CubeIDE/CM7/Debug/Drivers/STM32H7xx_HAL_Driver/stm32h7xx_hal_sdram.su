@@ -10,7 +10,7 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:342:13:HAL_SDRAM_DMA_XferErrorCallback	0	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:1292:13:SDRAM_DMAError	8	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:379:19:HAL_SDRAM_Read_8b	16	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:431:19:HAL_SDRAM_Write_8b	16	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:431:19:HAL_SDRAM_Write_8b	12	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:482:19:HAL_SDRAM_Read_16b	20	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:542:19:HAL_SDRAM_Write_16b	20	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c:601:19:HAL_SDRAM_Read_32b	12	static

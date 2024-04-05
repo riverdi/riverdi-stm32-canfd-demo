@@ -36,6 +36,10 @@ void Screen1Presenter::deactivate()
 
 }
 
+void Screen1Presenter::tearDownScreen()
+{
+
+}
 
 /* In Screen presenter, call the functions which they are in the view this time*/
 

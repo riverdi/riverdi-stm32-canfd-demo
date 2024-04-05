@@ -9,5 +9,5 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:431:6:PendSV_Handler	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:488:6:xPortSysTickHandler	2
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:679:30:vPortSetupTimerInterrupt	1
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:287:12:xPortStartScheduler	6
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:287:12:xPortStartScheduler	5
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:717:7:vPortValidateInterruptPriority	4

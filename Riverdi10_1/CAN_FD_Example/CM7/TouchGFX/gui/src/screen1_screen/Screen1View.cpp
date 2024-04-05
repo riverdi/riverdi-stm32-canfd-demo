@@ -53,6 +53,8 @@ void Screen1View::setChargeLevel(int value)
 	/*Update the battery percentage*/
 	imageProgress1.setValue(value);
 	imageProgress1.invalidate();
+	Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%d%", value);
+	textArea1.invalidate();
 
 }
 

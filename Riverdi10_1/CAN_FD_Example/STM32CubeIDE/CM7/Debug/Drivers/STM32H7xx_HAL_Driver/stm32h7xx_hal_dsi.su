@@ -27,7 +27,7 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:1973:19:HAL_DSI_ExitULPMData	24	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2149:19:HAL_DSI_EnterULPM	24	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2301:19:HAL_DSI_ExitULPM	24	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2494:19:HAL_DSI_PatternGeneratorStart	8	static
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2494:19:HAL_DSI_PatternGeneratorStart	12	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2518:19:HAL_DSI_PatternGeneratorStop	0	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2543:19:HAL_DSI_SetSlewRateAndDelayTuning	8	static
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c:2635:19:HAL_DSI_SetLowPowerRXFilter	0	static

@@ -5,13 +5,13 @@ C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_E
 ../../../CM7/TouchGFX/target/generated/STM32DMA.hpp:174:18:virtual void STM32DMA::start()	7
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:64:1:STM32DMA::~STM32DMA()	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:64:1:virtual STM32DMA::~STM32DMA()	1
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:117:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	3
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:342:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	2
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:82:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	4
+C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:173:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	12
 ../../../CM7/TouchGFX/target/generated/STM32DMA.hpp:148:18:virtual void STM32DMA::signalDMAInterrupt()	9
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:38:17:void DMA2D_IRQHandler()	3
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:58:1:STM32DMA::STM32DMA()	2
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:82:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	4
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:117:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	3
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:173:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	12
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:342:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	2
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:410:6:void touchgfx::paint::setL8Palette(const uint8_t*)	1
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:421:6:void touchgfx::paint::tearDown()	2
 C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/STM32DMA.cpp:438:6:void touchgfx::paint::rgb565::lineFromColor(uint16_t*, unsigned int, uint32_t, uint8_t, uint32_t)	3

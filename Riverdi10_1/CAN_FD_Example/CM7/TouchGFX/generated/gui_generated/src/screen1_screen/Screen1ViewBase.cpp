@@ -4,6 +4,7 @@
 #include <gui_generated/screen1_screen/Screen1ViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <images/BitmapDatabase.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
 
 Screen1ViewBase::Screen1ViewBase()
 {
@@ -11,11 +12,11 @@ Screen1ViewBase::Screen1ViewBase()
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    image1.setXY(0, 0);
+    image1.setXY(0, 2);
     image1.setBitmap(touchgfx::Bitmap(BITMAP_PXFUEL_ID));
     add(image1);
 
-    animatedImage1.setXY(380, 724);
+    animatedImage1.setXY(282, 724);
     animatedImage1.setBitmaps(BITMAP_C7BB67AD_72CB_469F_AAB8_1D20CB9D21DF_1_ID, BITMAP_C7BB67AD_72CB_469F_AAB8_1D20CB9D21DF_5_ID);
     animatedImage1.setUpdateTicksInterval(12);
     animatedImage1.setAlpha(0);
@@ -26,24 +27,35 @@ Screen1ViewBase::Screen1ViewBase()
     imageProgress1.setRange(0, 100);
     imageProgress1.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
     imageProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ID));
-    imageProgress1.setBitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_TINY_ACTION_ID);
+    imageProgress1.setBitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ACTIVE_ID);
     imageProgress1.setValue(0);
     imageProgress1.setAnchorAtZero(true);
     add(imageProgress1);
 
-    image2.setXY(0, 0);
-    image2.setBitmap(touchgfx::Bitmap(BITMAP_LOGO_400PX_ID));
+    image2.setXY(0, 2);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_RIVERDI_LOGO_KOLOR_RGB_ID));
     add(image2);
 
-    image3.setXY(860, 736);
+    image3.setXY(905, 736);
     image3.setBitmap(touchgfx::Bitmap(BITMAP_UNTITLED_ID));
     image3.setAlpha(0);
     add(image3);
 
     image4.setXY(1030, 339);
     image4.setBitmap(touchgfx::Bitmap(BITMAP_CAN_FD_1_ID));
-    image4.setAlpha(0);
     add(image4);
+
+    textArea1.setPosition(797, 762, 56, 20);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    textArea1.setLinespacing(0);
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_TE2G).getText());
+    textArea1.setWildcard(textArea1Buffer);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_EEFG));
+    add(textArea1);
+
+    image5.setXY(410, 732);
+    image5.setBitmap(touchgfx::Bitmap(BITMAP_ADOBESTOCK_576683640_ID));
+    add(image5);
 }
 
 Screen1ViewBase::~Screen1ViewBase()
