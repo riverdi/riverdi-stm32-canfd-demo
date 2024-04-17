@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/OSWrappers.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/OSWrappers.cpp \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/generated/OSWrappers.cpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/STM32TouchController.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/STM32TouchController.cpp \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/target/STM32TouchController.cpp \
  ../../../CM7/TouchGFX/target/STM32TouchController.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

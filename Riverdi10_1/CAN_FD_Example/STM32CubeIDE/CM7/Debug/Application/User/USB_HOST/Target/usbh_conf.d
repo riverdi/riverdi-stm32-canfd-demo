@@ -1,5 +1,5 @@
 Application/User/USB_HOST/Target/usbh_conf.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_conf.c \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_conf.c \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../../../CM7/USB_HOST/Target/usbh_conf.h ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
@@ -80,7 +80,7 @@ Application/User/USB_HOST/Target/usbh_conf.o: \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h \
  ../../../CM7/USB_HOST/App/usb_host.h
 ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 ../../../CM7/USB_HOST/Target/usbh_conf.h:
@@ -163,5 +163,5 @@ Application/User/USB_HOST/Target/usbh_conf.o: \
 ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h:
 ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h:
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h:
 ../../../CM7/USB_HOST/App/usb_host.h:

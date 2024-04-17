@@ -1,6 +1,6 @@
 Application/User/USB_HOST/Target/usbh_platform.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.c \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h \
  ../../../CM7/USB_HOST/App/usb_host.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h \
@@ -64,7 +64,7 @@ Application/User/USB_HOST/Target/usbh_platform.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/Target/usbh_platform.h:
 ../../../CM7/USB_HOST/App/usb_host.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h:

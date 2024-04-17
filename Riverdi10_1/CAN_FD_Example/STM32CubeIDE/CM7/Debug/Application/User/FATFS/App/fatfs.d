@@ -1,6 +1,6 @@
 Application/User/FATFS/App/fatfs.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.c \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.h \
  ../../../Middlewares/Third_Party/FatFs/src/ff.h \
  ../../../Middlewares/Third_Party/FatFs/src/integer.h \
  ../../../CM7/FATFS/Target/ffconf.h ../../../CM7/Core/Inc/main.h \
@@ -83,7 +83,7 @@ Application/User/FATFS/App/fatfs.o: \
  ../../../Middlewares/Third_Party/FatFs/src/diskio.h \
  ../../../Middlewares/Third_Party/FatFs/src/ff.h \
  ../../../CM7/FATFS/Target/sd_diskio.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/App/fatfs.h:
 ../../../Middlewares/Third_Party/FatFs/src/ff.h:
 ../../../Middlewares/Third_Party/FatFs/src/integer.h:
 ../../../CM7/FATFS/Target/ffconf.h:

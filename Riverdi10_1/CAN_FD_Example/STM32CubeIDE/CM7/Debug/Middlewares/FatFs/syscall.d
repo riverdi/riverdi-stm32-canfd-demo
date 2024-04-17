@@ -1,7 +1,7 @@
 Middlewares/FatFs/syscall.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../ff.h \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../integer.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/syscall.c \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../ff.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../integer.h \
  ../../../CM7/FATFS/Target/ffconf.h ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
@@ -78,8 +78,8 @@ Middlewares/FatFs/syscall.o: \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../ff.h:
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../integer.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../ff.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/option/../integer.h:
 ../../../CM7/FATFS/Target/ffconf.h:
 ../../../CM7/Core/Inc/main.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:

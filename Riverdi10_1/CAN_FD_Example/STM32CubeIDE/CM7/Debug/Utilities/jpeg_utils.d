@@ -1,6 +1,6 @@
 Utilities/jpeg_utils.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.h \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.c \
+ C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.h \
  ../../../CM7/Core/Inc/jpeg_utils_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
@@ -64,7 +64,7 @@ Utilities/jpeg_utils.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.h:
+C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Utilities/JPEG/jpeg_utils.h:
 ../../../CM7/Core/Inc/jpeg_utils_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
