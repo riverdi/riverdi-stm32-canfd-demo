@@ -17,6 +17,10 @@
 
 #include <gui/screen1_screen/Screen1View.hpp>
 
+
+extern  uint8_t CAN_FD_State;
+
+
 Screen1View::Screen1View()
 {
 
@@ -69,6 +73,17 @@ void Screen1View::SetState(bool state)
 			animatedImage1.invalidate();
 
 		}
+	}
+
+	if(CAN_FD_State ==0)
+	{
+		image3.setAlpha(0);
+		image3.invalidate();
+	}
+	else
+	{
+		image3.setAlpha(255);
+		image3.invalidate();
 	}
 
 }

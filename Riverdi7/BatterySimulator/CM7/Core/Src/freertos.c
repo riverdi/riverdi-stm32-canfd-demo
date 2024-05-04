@@ -66,6 +66,9 @@ uint8_t state=0; /*!< State of the battery i.e. Charging or discharging*/
 uint8_t level=0; /*!< Level of the battery (0-100%)*/
 
 
+uint8_t CAN_FD_State=0;
+
+
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -348,7 +351,11 @@ void StartCANFD_Task(void *argument)
 	  /*Push the data to CAN-FD FIFO*/
 	  if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &TxHeader, TxData)!= HAL_OK)
 	  {
-	   Error_Handler();
+		  CAN_FD_State=1;
+	  }
+	  else
+	  {
+		  CAN_FD_State=0;
 	  }
 
 	  /*Delay by 10ms*/

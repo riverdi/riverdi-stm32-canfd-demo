@@ -1,5 +1,5 @@
 Application/User/FATFS/Target/sd_diskio.o: \
- C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.c \
  ../../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  ../../../Middlewares/Third_Party/FatFs/src/diskio.h \
  ../../../Middlewares/Third_Party/FatFs/src/integer.h \
@@ -80,8 +80,8 @@ Application/User/FATFS/Target/sd_diskio.o: \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.h \
- C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/bsp_driver_sd.h
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/bsp_driver_sd.h
 ../../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
 ../../../Middlewares/Third_Party/FatFs/src/diskio.h:
 ../../../Middlewares/Third_Party/FatFs/src/integer.h:
@@ -163,5 +163,5 @@ Application/User/FATFS/Target/sd_diskio.o: \
 ../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.h:
-C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/bsp_driver_sd.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/sd_diskio.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/FATFS/Target/bsp_driver_sd.h:

@@ -2,7 +2,7 @@ CM7/TouchGFX/build/Riverdi_70STM32H7/Middlewares/ST/STM32_USB_Host_Library/Core/
  Middlewares/ST/STM32_USB_Host_Library/Core/src/usbh_pipes.c \
  Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h \
  Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
- c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/Target/usbh_conf.h \
+ c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/Target/usbh_conf.h \
  CM7/Core/Inc/main.h Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  CM7/Core/Inc/stm32h7xx_hal_conf.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -85,7 +85,7 @@ Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h:
 
 Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 
-c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/Target/usbh_conf.h:
+c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/Target/usbh_conf.h:
 
 CM7/Core/Inc/main.h:
 

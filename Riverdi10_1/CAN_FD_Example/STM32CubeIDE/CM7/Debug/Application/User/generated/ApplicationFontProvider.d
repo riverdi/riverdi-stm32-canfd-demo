@@ -1,5 +1,5 @@
 Application/User/generated/ApplicationFontProvider.o: \
- C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

@@ -45,8 +45,17 @@
             "FileNameBackground": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium.png",
             "IndicatorPositionWidth": 300,
             "IndicatorPositionHeight": 10,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 824,
+            "Y": 229,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "output-onlinepngtools.png",
+            "Alpha": 0
           }
         ],
         "Interactions": []

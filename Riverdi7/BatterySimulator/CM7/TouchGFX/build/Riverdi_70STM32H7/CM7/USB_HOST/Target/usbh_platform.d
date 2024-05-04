@@ -1,6 +1,6 @@
 CM7/TouchGFX/build/Riverdi_70STM32H7/CM7/USB_HOST/Target/usbh_platform.o: \
  CM7/USB_HOST/Target/usbh_platform.c CM7/USB_HOST/Target/usbh_platform.h \
- c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/App/usb_host.h \
+ c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/App/usb_host.h \
  Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h \
  Drivers/CMSIS/Include/core_cm7.h Drivers/CMSIS/Include/cmsis_version.h \
@@ -66,7 +66,7 @@ CM7/TouchGFX/build/Riverdi_70STM32H7/CM7/USB_HOST/Target/usbh_platform.o: \
 
 CM7/USB_HOST/Target/usbh_platform.h:
 
-c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/App/usb_host.h:
+c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/USB_HOST/App/usb_host.h:
 
 Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 

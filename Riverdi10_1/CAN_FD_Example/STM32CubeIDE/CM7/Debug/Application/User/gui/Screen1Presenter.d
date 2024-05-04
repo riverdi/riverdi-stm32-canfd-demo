@@ -1,5 +1,5 @@
 Application/User/gui/Screen1Presenter.o: \
- C:/Users/hussamaldean/Documents/Riverdi_Displays/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

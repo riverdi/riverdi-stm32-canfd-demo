@@ -4,7 +4,7 @@ CM7/TouchGFX/build/Riverdi_70STM32H7/Middlewares/Third_Party/FatFs/src/ff_gen_dr
  Middlewares/Third_Party/FatFs/src/diskio.h \
  Middlewares/Third_Party/FatFs/src/integer.h \
  Middlewares/Third_Party/FatFs/src/ff.h \
- c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/ffconf.h \
+ c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/ffconf.h \
  CM7/Core/Inc/main.h Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  CM7/Core/Inc/stm32h7xx_hal_conf.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -67,8 +67,8 @@ CM7/TouchGFX/build/Riverdi_70STM32H7/Middlewares/Third_Party/FatFs/src/ff_gen_dr
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
- c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/bsp_driver_sd.h \
- c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/fatfs_platform.h \
+ c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/bsp_driver_sd.h \
+ c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/fatfs_platform.h \
  Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  CM7/Core/Inc/FreeRTOSConfig.h \
@@ -89,7 +89,7 @@ Middlewares/Third_Party/FatFs/src/integer.h:
 
 Middlewares/Third_Party/FatFs/src/ff.h:
 
-c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/ffconf.h:
+c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/ffconf.h:
 
 CM7/Core/Inc/main.h:
 
@@ -221,9 +221,9 @@ Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h:
 
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 
-c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/bsp_driver_sd.h:
+c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/bsp_driver_sd.h:
 
-c:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/fatfs_platform.h:
+c:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi7/BatterySimulator/CM7/FATFS/Target/fatfs_platform.h:
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
 
