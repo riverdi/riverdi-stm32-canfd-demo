@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/lvgl/src/themes/mono/lv_theme_mono.c:231:13:theme_apply	48	static
+../Middlewares/Third_Party/lvgl/src/themes/mono/lv_theme_mono.c:182:6:lv_theme_mono_is_inited	0	static
+../Middlewares/Third_Party/lvgl/src/themes/mono/lv_theme_mono.c:189:6:lv_theme_mono_deinit	16	static
+../Middlewares/Third_Party/lvgl/src/themes/mono/lv_theme_mono.c:205:14:lv_theme_mono_init	104	static

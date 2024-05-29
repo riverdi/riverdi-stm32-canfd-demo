@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:266:13:mem_observer_cb	1
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:219:13:perf_observer_cb	1
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:114:13:perf_monitor_disp_event_cb	9
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:70:6:_lv_sysmon_builtin_init	1
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:85:6:_lv_sysmon_builtin_deinit	1
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:96:12:lv_sysmon_create	1
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:249:13:mem_update_timer_cb	4
+../Middlewares/Third_Party/lvgl/src/others/sysmon/lv_sysmon.c:160:13:perf_update_timer_cb	7

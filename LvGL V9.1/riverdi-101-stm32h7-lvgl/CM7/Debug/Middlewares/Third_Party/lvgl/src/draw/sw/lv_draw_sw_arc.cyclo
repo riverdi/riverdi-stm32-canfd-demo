@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_arc.c:238:13:get_rounded_area	3
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_arc.c:49:6:lv_draw_sw_arc	37

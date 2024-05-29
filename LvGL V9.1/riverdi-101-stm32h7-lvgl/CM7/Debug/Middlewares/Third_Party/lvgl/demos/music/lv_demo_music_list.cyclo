@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/lvgl/demos/music/lv_demo_music_list.c:229:13:btn_click_event_cb	1
+../Middlewares/Third_Party/lvgl/demos/music/lv_demo_music_list.c:238:13:list_delete_event_cb	2
+../Middlewares/Third_Party/lvgl/demos/music/lv_demo_music_list.c:54:12:_lv_demo_music_list_create	3
+../Middlewares/Third_Party/lvgl/demos/music/lv_demo_music_list.c:154:6:_lv_demo_music_list_button_check	2

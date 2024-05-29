@@ -1,0 +1,7 @@
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:302:13:position_knob	2
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:401:13:update_knob_pos	31
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:86:13:lv_slider_constructor	2
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:102:13:lv_slider_event.part.0	44
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:102:13:lv_slider_event	2
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:66:12:lv_slider_create	1
+../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:74:6:lv_slider_is_dragged	1

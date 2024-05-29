@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/lvgl/src/font/lv_binfont_loader.c:118:6:lv_binfont_destroy	24	static
+../Middlewares/Third_Party/lvgl/src/font/lv_binfont_loader.c:565:9:load_kern	48	static
+../Middlewares/Third_Party/lvgl/src/font/lv_binfont_loader.c:81:13:lv_binfont_create	160	static

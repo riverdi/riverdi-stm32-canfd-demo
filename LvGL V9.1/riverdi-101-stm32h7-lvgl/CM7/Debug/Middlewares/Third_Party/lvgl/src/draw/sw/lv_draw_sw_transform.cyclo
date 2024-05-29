@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_transform.c:614:13:transform_point_upscaled	6
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_transform.c:429:13:transform_rgb565a8	32
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_transform.c:244:13:transform_rgb888	27
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_transform.c:82:6:lv_draw_sw_transform	100

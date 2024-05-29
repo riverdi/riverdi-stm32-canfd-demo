@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_img.c:175:13:img_draw_core	232	static
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_img.c:70:6:lv_draw_sw_layer	120	static
+../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_img.c:160:6:lv_draw_sw_image	0	static

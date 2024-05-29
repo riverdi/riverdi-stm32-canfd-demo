@@ -1,0 +1,6 @@
+../Core/Src/freertos.c:166:6:StartDefaultTask	1
+../Core/Src/freertos.c:182:6:LVGLTimer	5
+../Core/Src/freertos.c:210:6:LVGLTick	1
+../Core/Src/freertos.c:92:6:vApplicationIdleHook	1
+../Core/Src/freertos.c:109:6:vApplicationStackOverflowHook	1
+../Core/Src/freertos.c:122:6:MX_FREERTOS_Init	1

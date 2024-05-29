@@ -1,0 +1,4 @@
+../Core/Src/ltdc.c:27:10:ltdc_buffer_addr	1
+../Core/Src/ltdc.c:39:6:MX_LTDC_Init	3
+../Core/Src/ltdc.c:96:6:HAL_LTDC_MspInit	2
+../Core/Src/ltdc.c:212:6:HAL_LTDC_MspDeInit	2
