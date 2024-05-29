@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32h7xx_dualcore_boot_cm4_cm7.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \

@@ -1,6 +1,6 @@
 Application/User/USB_HOST/App/usb_host.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \
@@ -84,7 +84,7 @@ Application/User/USB_HOST/App/usb_host.o: \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/USB_HOST/App/usb_host.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h:
 ../../../Drivers/CMSIS/Include/core_cm7.h:

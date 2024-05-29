@@ -1,5 +1,5 @@
 Middlewares/STM32_USB_Host_Library/usbh_ctlreq.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h \
  ../../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../../../CM7/USB_HOST/Target/usbh_conf.h ../../../CM7/Core/Inc/main.h \

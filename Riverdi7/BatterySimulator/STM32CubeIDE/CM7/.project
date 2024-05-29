@@ -782,14 +782,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_c7bb67ad-72cb-469f-aab8-1d20cb9d21df-5.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_output-onlinepngtools.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_output-onlinepngtools.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_pxfuel.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_pxfuel.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/image_synthwave-sports-car.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_synthwave-sports-car.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

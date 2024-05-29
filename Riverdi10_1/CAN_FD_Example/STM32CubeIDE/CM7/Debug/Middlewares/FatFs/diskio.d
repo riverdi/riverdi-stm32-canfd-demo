@@ -1,9 +1,9 @@
 Middlewares/FatFs/diskio.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.c \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.h \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/integer.h \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/integer.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff.h \
  ../../../CM7/FATFS/Target/ffconf.h ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
@@ -80,10 +80,10 @@ Middlewares/FatFs/diskio.o: \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.h:
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/integer.h:
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/diskio.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/integer.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FatFs/src/ff.h:
 ../../../CM7/FATFS/Target/ffconf.h:
 ../../../CM7/Core/Inc/main.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:

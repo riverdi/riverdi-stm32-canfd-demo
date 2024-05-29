@@ -31,9 +31,14 @@ Screen1ViewBase::Screen1ViewBase()
     imageProgress1.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
     imageProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ID));
     imageProgress1.setBitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_IMAGEPROGRESS_PLAIN_NORMAL_MEDIUM_ACTION_ID);
-    imageProgress1.setValue(60);
+    imageProgress1.setValue(0);
     imageProgress1.setAnchorAtZero(true);
     add(imageProgress1);
+
+    image3.setXY(824, 229);
+    image3.setBitmap(touchgfx::Bitmap(BITMAP_OUTPUT_ONLINEPNGTOOLS_ID));
+    image3.setAlpha(0);
+    add(image3);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

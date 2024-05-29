@@ -1,5 +1,5 @@
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:32:6:MX_I2C1_Init	8	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:75:6:MX_I2C2_Init	8	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:122:6:MX_I2C4_Init	8	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:165:6:HAL_I2C_MspInit	272	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:279:6:HAL_I2C_MspDeInit	8	static
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:32:6:MX_I2C1_Init	8	static
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:75:6:MX_I2C2_Init	8	static
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:122:6:MX_I2C4_Init	8	static
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:165:6:HAL_I2C_MspInit	272	static
+C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/CM7/Core/Src/i2c.c:279:6:HAL_I2C_MspDeInit	8	static

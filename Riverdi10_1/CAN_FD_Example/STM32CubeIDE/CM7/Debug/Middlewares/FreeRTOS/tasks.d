@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/tasks.o: \
- C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ C:/Users/hussam/Documents/GitHub/Riverdi_Displays/Riverdi10_1/CAN_FD_Example/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../../CM7/Core/Inc/FreeRTOSConfig.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

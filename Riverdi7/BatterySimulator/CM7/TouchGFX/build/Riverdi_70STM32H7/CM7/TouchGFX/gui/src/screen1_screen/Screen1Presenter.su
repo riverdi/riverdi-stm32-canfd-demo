@@ -1,7 +1,7 @@
 Screen1Presenter.hpp:28:13:Screen1Presenter::~Screen1Presenter()	0	static
 Screen1Presenter.cpp:29:6:virtual void Screen1Presenter::activate()	0	static
-Screen1Presenter.cpp:48:6:virtual void Screen1Presenter::SetState(bool)	0	static
-Screen1Presenter.cpp:59:6:virtual void Screen1Presenter::SetLevel(int)	0	static
+Screen1Presenter.cpp:52:6:virtual void Screen1Presenter::SetState(bool)	0	static
+Screen1Presenter.cpp:63:6:virtual void Screen1Presenter::SetLevel(int)	0	static
 Screen1Presenter.hpp:28:13:virtual Screen1Presenter::~Screen1Presenter()	8	static
 Screen1Presenter.hpp:28:13:virtual void* Screen1Presenter::_ZThn4_N16Screen1PresenterD1Ev()	0	static
 Screen1Presenter.cpp:23:1:Screen1Presenter::Screen1Presenter(Screen1View&)	8	static
