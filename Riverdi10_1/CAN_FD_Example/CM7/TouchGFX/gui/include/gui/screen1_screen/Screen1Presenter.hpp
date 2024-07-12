@@ -30,7 +30,6 @@ public:
     /*Declare both functions*/
     virtual void setChargeLevel(int value);
     virtual void setChargeState(bool state);
-
     virtual void SetFault (bool state);
 
 private:

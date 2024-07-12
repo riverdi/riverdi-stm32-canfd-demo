@@ -99,6 +99,8 @@ void Screen1View::setChargeState(bool state)
 
 }
 
+
+
 /* Set the fault display*/
 
 /*  Set the fault display Function  */

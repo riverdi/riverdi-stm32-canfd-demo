@@ -55,7 +55,7 @@ extern FDCAN_HandleTypeDef hfdcan1; /*!< Instant of FDCANHandleTypedef*/
 FDCAN_TxHeaderTypeDef   TxHeader; /*!< Tx Header of CAN-FD*/
 FDCAN_RxHeaderTypeDef   RxHeader; /*!< Rx Header of CAN-FD*/
 uint8_t               TxData[2];  /*!< Tx data  buffer*/
-uint8_t               RxData[2]; /*!< Rx data  buffer*/
+
 
 uint8_t dir=0;  /*!< Direction for either charging or discharging*/
 
@@ -66,7 +66,7 @@ uint8_t state=0; /*!< State of the battery i.e. Charging or discharging*/
 uint8_t level=0; /*!< Level of the battery (0-100%)*/
 
 
-uint8_t CAN_FD_State=0;
+uint8_t CAN_FD_State=0; /*!< CAN-FD Status (Success or Failed)*/
 
 
 /* USER CODE END Variables */
@@ -304,10 +304,8 @@ void StartBatteryControl(void *argument)
 	  /*Send the battery level state*/
 	  osMessageQueuePut(BatteryLevelQueueHandle,&level,0,0);
 
+	  /*Send the CAN-FD state */
 	  osMessageQueuePut(CANFD_BatteryLevelQueueHandle, &level, 0, 0);
-
-
-
 
 	  /*Repeat this every 200ms*/
     osDelay(200);

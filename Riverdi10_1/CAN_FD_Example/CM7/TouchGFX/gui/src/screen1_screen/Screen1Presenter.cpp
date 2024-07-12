@@ -34,6 +34,7 @@ void Screen1Presenter::deactivate()
 
 }
 
+
 /* setChargeLevel Function  */
 /**
   * @brief  Function implementing of set charge level.

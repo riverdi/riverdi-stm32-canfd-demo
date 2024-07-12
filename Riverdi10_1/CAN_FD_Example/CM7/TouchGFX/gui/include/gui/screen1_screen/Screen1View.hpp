@@ -11,9 +11,13 @@ public:
     virtual ~Screen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+
     virtual void setChargeLevel(int value);
     virtual void setChargeState(bool state);
     virtual void SetFault (bool state);
+
+
 protected:
 };
 
