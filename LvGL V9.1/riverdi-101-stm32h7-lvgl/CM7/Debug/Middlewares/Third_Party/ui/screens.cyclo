@@ -1,7 +1,0 @@
-../Middlewares/Third_Party/ui/screens.c:124:6:tick_screen_main	1
-../Middlewares/Third_Party/ui/screens.c:23:13:event_handler_cb_main_obj1	2
-../Middlewares/Third_Party/ui/screens.c:15:13:event_handler_cb_main_obj0	2
-../Middlewares/Third_Party/ui/screens.c:31:6:create_screen_main	1
-../Middlewares/Third_Party/ui/screens.c:128:6:create_screens	1
-../Middlewares/Third_Party/ui/screens.c:142:6:tick_screen	1
-../Middlewares/Third_Party/ui/screens.c:146:6:update_slider	1

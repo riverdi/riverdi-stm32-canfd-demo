@@ -1,2 +1,0 @@
-../Middlewares/Third_Party/lvgl/demos/lv_demos.c:85:6:lv_demos_create	16	static
-../Middlewares/Third_Party/lvgl/demos/lv_demos.c:120:6:lv_demos_show_help	0	static

@@ -1,3 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_gradient.c:62:13:lv_gradient_get	9
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_gradient.c:82:28:lv_gradient_color_calculate	5
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw_gradient.c:135:6:lv_gradient_cleanup	1

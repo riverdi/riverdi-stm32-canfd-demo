@@ -1,6 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:254:16:evaluate	0	static
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:292:16:dispatch	16	static
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:130:6:lv_draw_sw_init	8	static
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:155:6:lv_draw_sw_deinit	0	static
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:185:6:lv_draw_sw_rgb565_swap	32	static
-../Middlewares/Third_Party/lvgl/src/draw/sw/lv_draw_sw.c:219:6:lv_draw_sw_rotate	200	static

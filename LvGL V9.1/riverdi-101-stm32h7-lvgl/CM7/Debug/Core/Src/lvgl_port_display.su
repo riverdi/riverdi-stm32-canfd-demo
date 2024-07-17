@@ -1,3 +1,0 @@
-../Core/Src/lvgl_port_display.c:58:1:disp_flush	16	static
-../Core/Src/lvgl_port_display.c:78:1:disp_flush_complete	0	static
-../Core/Src/lvgl_port_display.c:33:1:lvgl_display_init	24	static

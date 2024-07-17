@@ -1,5 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/font/lv_font.c:53:6:lv_font_get_glyph_dsc.part.0	7
-../Middlewares/Third_Party/lvgl/src/font/lv_font.c:45:14:lv_font_get_glyph_bitmap	2
-../Middlewares/Third_Party/lvgl/src/font/lv_font.c:53:6:lv_font_get_glyph_dsc	3
-../Middlewares/Third_Party/lvgl/src/font/lv_font.c:111:10:lv_font_get_glyph_width	9
-../Middlewares/Third_Party/lvgl/src/font/lv_font.c:123:6:lv_font_set_kerning	2

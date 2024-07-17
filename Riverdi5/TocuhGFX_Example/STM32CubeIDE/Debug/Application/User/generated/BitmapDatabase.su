@@ -1,2 +1,0 @@
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/TouchGFX/generated/images/src/BitmapDatabase.cpp:25:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	4	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/TouchGFX/generated/images/src/BitmapDatabase.cpp:30:10:uint16_t BitmapDatabase::getInstanceSize()	4	static

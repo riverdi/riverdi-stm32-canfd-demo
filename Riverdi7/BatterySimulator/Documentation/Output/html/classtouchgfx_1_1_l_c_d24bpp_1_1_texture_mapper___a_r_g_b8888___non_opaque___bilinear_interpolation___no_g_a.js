@@ -1,6 +1,0 @@
-var classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___a_r_g_b8888___non_opaque___bilinear_interpolation___no_g_a =
-[
-    [ "drawTextureMapScanLineSubdivisions", "classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___a_r_g_b8888___non_opaque___bilinear_interpolation___no_g_a.html#a85a6c1aa2fa9d81a903a02d63fe21f7f", null ],
-    [ "writePixel", "classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___a_r_g_b8888___non_opaque___bilinear_interpolation___no_g_a.html#aeaf88139e66628f2cb5457bc27e43a64", null ],
-    [ "writePixelOnEdge", "classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___a_r_g_b8888___non_opaque___bilinear_interpolation___no_g_a.html#a0ea67ceaa535774d28ed7e70ff75d9e4", null ]
-];

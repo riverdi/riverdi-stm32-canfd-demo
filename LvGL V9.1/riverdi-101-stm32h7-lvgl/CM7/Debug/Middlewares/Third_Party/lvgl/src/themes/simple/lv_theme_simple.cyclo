@@ -1,5 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/themes/simple/lv_theme_simple.c:204:13:theme_apply	35
-../Middlewares/Third_Party/lvgl/src/themes/simple/lv_theme_simple.c:144:6:lv_theme_simple_is_inited	2
-../Middlewares/Third_Party/lvgl/src/themes/simple/lv_theme_simple.c:151:14:lv_theme_simple_get	2
-../Middlewares/Third_Party/lvgl/src/themes/simple/lv_theme_simple.c:160:6:lv_theme_simple_deinit	4
-../Middlewares/Third_Party/lvgl/src/themes/simple/lv_theme_simple.c:176:14:lv_theme_simple_init	24

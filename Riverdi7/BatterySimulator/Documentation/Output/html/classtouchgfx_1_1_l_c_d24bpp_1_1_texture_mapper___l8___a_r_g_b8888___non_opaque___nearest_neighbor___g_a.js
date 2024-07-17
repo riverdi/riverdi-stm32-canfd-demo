@@ -1,5 +1,0 @@
-var classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___l8___a_r_g_b8888___non_opaque___nearest_neighbor___g_a =
-[
-    [ "drawTextureMapScanLineSubdivisions", "classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___l8___a_r_g_b8888___non_opaque___nearest_neighbor___g_a.html#a85a6c1aa2fa9d81a903a02d63fe21f7f", null ],
-    [ "writePixel", "classtouchgfx_1_1_l_c_d24bpp_1_1_texture_mapper___l8___a_r_g_b8888___non_opaque___nearest_neighbor___g_a.html#a07e26d6d525657b2cbb7902948c22343", null ]
-];

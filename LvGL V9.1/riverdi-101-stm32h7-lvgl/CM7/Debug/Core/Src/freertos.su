@@ -1,6 +1,0 @@
-../Core/Src/freertos.c:166:6:StartDefaultTask	8	static
-../Core/Src/freertos.c:182:6:LVGLTimer	8	static
-../Core/Src/freertos.c:210:6:LVGLTick	8	static
-../Core/Src/freertos.c:92:6:vApplicationIdleHook	0	static
-../Core/Src/freertos.c:109:6:vApplicationStackOverflowHook	0	static
-../Core/Src/freertos.c:122:6:MX_FREERTOS_Init	8	static

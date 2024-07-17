@@ -1,7 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:302:13:position_knob	40	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:401:13:update_knob_pos	72	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:86:13:lv_slider_constructor	16	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:102:13:lv_slider_event.part.0	288	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:102:13:lv_slider_event	8	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:66:12:lv_slider_create	8	static
-../Middlewares/Third_Party/lvgl/src/widgets/slider/lv_slider.c:74:6:lv_slider_is_dragged	0	static

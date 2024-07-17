@@ -1,7 +1,0 @@
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:107:13:lv_bin_decoder_info	10
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:814:20:decode_alpha_only.constprop	15
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:549:20:decode_indexed.constprop	12
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:351:6:lv_bin_decoder_close	8
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:370:13:lv_bin_decoder_get_area	28
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:174:13:lv_bin_decoder_open	50
-../Middlewares/Third_Party/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:89:6:lv_bin_decoder_init	2

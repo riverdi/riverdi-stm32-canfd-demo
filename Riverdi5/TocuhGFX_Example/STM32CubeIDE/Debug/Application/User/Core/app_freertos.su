@@ -1,5 +1,0 @@
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/Core/Src/app_freertos.c:80:6:vApplicationMallocFailedHook	4	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/Core/Src/app_freertos.c:96:6:vApplicationIdleHook	4	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/Core/Src/app_freertos.c:111:6:vApplicationStackOverflowHook	16	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/Core/Src/app_freertos.c:124:6:MX_FREERTOS_Init	8	static
-C:/Users/hussamaldean/STM32CubeIDE/Riverdi/Riverdi_Displays/Riverdi5/TocuhGFX_Example/Core/Src/app_freertos.c:166:6:StartDefaultTask	16	static
