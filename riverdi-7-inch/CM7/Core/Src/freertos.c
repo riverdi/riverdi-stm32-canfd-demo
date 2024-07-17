@@ -55,6 +55,7 @@ extern FDCAN_HandleTypeDef hfdcan1; /*!< Instant of FDCANHandleTypedef*/
 FDCAN_TxHeaderTypeDef   TxHeader; /*!< Tx Header of CAN-FD*/
 FDCAN_RxHeaderTypeDef   RxHeader; /*!< Rx Header of CAN-FD*/
 uint8_t               TxData[2];  /*!< Tx data  buffer*/
+uint8_t               RxData[2];  /*!< Rx data  buffer*/
 
 
 uint8_t dir=0;  /*!< Direction for either charging or discharging*/
